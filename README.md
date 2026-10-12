@@ -58,6 +58,7 @@ plane-symmetric-7R/
 ├── stage1/                        # Stage I (fixed-root, contact-free) evaluation artifacts
 │   ├── actuation_interface_audit/ # Actuated-coordinate projection rank & singular values at interfaces
 │   ├── audit_full_ideal_set.py    # Distance evaluation over all 12 analytical cycles (Eq. 65)
+│   ├── regular_initial_controls/  # 12 regular-initial-state Stage I controls (A3/A6 x BS1/BS3 x seeds 7/42/2026)
 │   └── *.csv / *.json             # State-sequence summaries and transition-fidelity audits (Table 4, Fig. 8)
 └── stage2/                        # Stage II (free-root ground locomotion) code, policies, and results
     ├── fourier_references/        # Analytical branch-derived nominal Fourier references (B_P, B_S1)
@@ -67,6 +68,7 @@ plane-symmetric-7R/
     │   ├── S03_retrained/         # Second spatial primitive (retrained under full collision model)
     │   └── S03_initial/           # Initial S03 checkpoints retained for provenance comparison
     ├── paired_replay_results/     # 120 paired perturbation deployments (input_gate & strict_gate; Table 8, Fig. 10)
+    ├── cycle_diagnostics/         # 1540 measured complete intervals of all 120 deployments (Supplement figure)
     ├── embodiment_interference_audit/ # Link-mesh collision audit along analytical cycles (Fig. 7)
     ├── scripts/                   # Paired replay evaluation and training entry scripts
     ├── tasks_s01/                 # Task environment definitions for S01
@@ -80,10 +82,17 @@ plane-symmetric-7R/
 - **Section 3 & Table 3 (Configuration-space census, $b_0=6$, $b_1=14$)**: `topology_proof/run_all_certificates.py` and `topology_proof/all_certificates_summary.json`.
 - **Section 4.1 & Figure 7 (Embodiment collision audit)**: `stage2/embodiment_interference_audit/interference_audit.py` and `interference_audit.json`.
 - **Section 4.2, Table 4 & Figure 8 (Stage I state sequences & transition fidelity, Eq. 65)**: `stage1/branch_sequence_by_replay.csv`, `stage1/transition_path_audit_v2.csv`, and `stage1/actuation_interface_audit/actuation_interface_audit.json`.
+- **Section 4.2 (Regular-initial-state controls) & Supplement Table "Twelve complete regular-state evaluations"**: `stage1/regular_initial_controls/stage1_regular_complete_summary.csv` and `stage1_review.json` (0/12 strictly certified switches).
+- **Supplement "Measured-cycle diagnostics for the 120 paired deployments"**: `stage2/cycle_diagnostics/cycle_source_data.csv` (1540 intervals, 72 negative) and `original_and_diagnostic_cycle_comparison.csv`.
 - **Section 4.3, Table 8 & Figure 10 (Stage II paired zero-residual comparisons)**: `stage2/paired_replay_results/input_gate/paired_analysis.json` and `derived_output_pair_differences.csv` (primary 10-trial input-gate protocol), and `stage2/paired_replay_results/strict_gate/paired_analysis.json` (strict-gate sensitivity check).
 
 ---
 
-## 4. License
+## 4. Version history
+
+- **v1.1.0**: added the twelve regular-initial-state Stage I controls and the measured-cycle diagnostics of the 120 paired deployments, plus independent statistics review files.
+- **v1.0.0**: initial release.
+
+## 5. License
 
 This code and data package is released under the [MIT License](LICENSE).

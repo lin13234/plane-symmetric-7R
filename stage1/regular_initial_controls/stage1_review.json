@@ -1,0 +1,1450 @@
+{
+  "recordings_verified": 12,
+  "raw_frames_per_recording": 10000,
+  "classified_frames_per_recording": 9999,
+  "early_resets": 0,
+  "terminal_timeouts": 12,
+  "strict_switches": 0,
+  "rows": [
+    {
+      "job": "StageI_A3_BS1_seed7",
+      "training_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "checkpoint_sha256": "5c8792ae0e953c223a47c0dae31f881a733759cc5d928026ec6f594fbe1a01ae",
+      "trace_sha256": "ba9bd396c4a9dc0a9778818c6e551417affdb98edd32d78c5d0ea0800ebc1bc4",
+      "original_frames_sha256": "97ba31d06e2f99e62df1724ee5d56eb82e12db46b0c5a29b36d3392bdc983dc8",
+      "recomputed_frames_sha256": "97ba31d06e2f99e62df1724ee5d56eb82e12db46b0c5a29b36d3392bdc983dc8",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A3_BS1_seed7",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS1 -> Ppi_pos -> BS2",
+        "state_changes": 2,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS2",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.00850394091872299,
+        "minimum_rank_ratio_time_s": 2.592,
+        "minimum_interface_distance_rad": 0.327377107086656,
+        "minimum_folded_distance_rad": 2.42990917789935,
+        "max_closure_position_m": 1.4636658728978887e-06,
+        "max_closure_chordal": 0.01907603762508991,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A3_BS1_seed42",
+      "training_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "checkpoint_sha256": "07b955a92974f9584a232b53aae1ab3328036a4121b33d21fdd15a4062f835ae",
+      "trace_sha256": "0d66b549a31e42cfad80da5fda777c375c8e0e79aa938b23bc0ba9ef9f7eeaea",
+      "original_frames_sha256": "7e15910ad896cb9ee5980f87451ad089074d733b0735d09af49d81d0edc7346d",
+      "recomputed_frames_sha256": "7e15910ad896cb9ee5980f87451ad089074d733b0735d09af49d81d0edc7346d",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A3_BS1_seed42",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS1 -> Ppi_pos -> BS2",
+        "state_changes": 2,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS2",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.010979402908643937,
+        "minimum_rank_ratio_time_s": 3.0008000000000004,
+        "minimum_interface_distance_rad": 0.2537118424879395,
+        "minimum_folded_distance_rad": 2.429910743083825,
+        "max_closure_position_m": 2.0666447697070475e-06,
+        "max_closure_chordal": 0.020096333562678766,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A3_BS1_seed2026",
+      "training_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "checkpoint_sha256": "77689c1895a89db2edbe383a84e82dd8b2a96c5f74c400b454abfec411667b87",
+      "trace_sha256": "013bdfe0b78352c4c4d73c558bcb1c5e683972c75cfd9b175fe5bfa0f42169f0",
+      "original_frames_sha256": "2488ad92d5658adb5f6eecb9b8fa907570c1d6320baed650c0df84f5ed44084f",
+      "recomputed_frames_sha256": "2488ad92d5658adb5f6eecb9b8fa907570c1d6320baed650c0df84f5ed44084f",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A3_BS1_seed2026",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS1 -> Ppi_pos -> BS2",
+        "state_changes": 2,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS2",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.008430614589422824,
+        "minimum_rank_ratio_time_s": 4.704000000000001,
+        "minimum_interface_distance_rad": 0.1723196894958649,
+        "minimum_folded_distance_rad": 2.429910254767829,
+        "max_closure_position_m": 2.082244100025089e-06,
+        "max_closure_chordal": 0.02200352963828452,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A3_BS3_seed7",
+      "training_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "checkpoint_sha256": "4cf90aa61bb3dea7196d0946181d0524aa55b3c72fb87691eae1661279cb5fbd",
+      "trace_sha256": "2c4c38d430bd8dac5476efdbc13613f8b3f4819c1bdadbb0d9f8fb0f4f9f4de5",
+      "original_frames_sha256": "e1748092a8591cc1fc5e389164c739446485c5a1d388c00305e7c4143690c5c5",
+      "recomputed_frames_sha256": "e1748092a8591cc1fc5e389164c739446485c5a1d388c00305e7c4143690c5c5",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A3_BS3_seed7",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS3 -> Ppi_neg -> BS4",
+        "state_changes": 2,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS4",
+        "terminal_lock_ratio": 0.84,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.011363517004540344,
+        "minimum_rank_ratio_time_s": 2.5912,
+        "minimum_interface_distance_rad": 0.2086850011421271,
+        "minimum_folded_distance_rad": 3.7005636467493974,
+        "max_closure_position_m": 2.9078687441074087e-06,
+        "max_closure_chordal": 0.01826391429988981,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A3_BS3_seed42",
+      "training_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "checkpoint_sha256": "8e55ee84a08fafe8fc179b5e92e85cfa1941968ac460f3f64ee346ab8a69bda9",
+      "trace_sha256": "a443aeb696452f260e790a466a41868464d99636c5ba519107de13b5a42ba65b",
+      "original_frames_sha256": "cd05d1b9dcaf643efefab31ba3dd65de095c237fc91677c9ad33e057793fad25",
+      "recomputed_frames_sha256": "cd05d1b9dcaf643efefab31ba3dd65de095c237fc91677c9ad33e057793fad25",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A3_BS3_seed42",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS3 -> Ppi_neg -> BS4",
+        "state_changes": 2,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS4",
+        "terminal_lock_ratio": 0.552,
+        "raw_terminal_supported_ratio": 0.956,
+        "minimum_sigma6_over_sigma1": 0.012063864182063884,
+        "minimum_rank_ratio_time_s": 2.8256,
+        "minimum_interface_distance_rad": 0.22088570315451395,
+        "minimum_folded_distance_rad": 3.700893518167186,
+        "max_closure_position_m": 3.0902619767105497e-06,
+        "max_closure_chordal": 0.01940148600141437,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A3_BS3_seed2026",
+      "training_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "checkpoint_sha256": "4fa079f3f2f2dc9c417b82c3183fb139e019d83c9f86192919adccddf98aa610",
+      "trace_sha256": "5a42c2dd91e261ca275b49a744b8b1b5eec3d66ace3d4c14ef889b0683ced7e3",
+      "original_frames_sha256": "84cdbd5d7e95a811e2e0f56b42800611b076579f40ed168aca58e797c65b7737",
+      "recomputed_frames_sha256": "84cdbd5d7e95a811e2e0f56b42800611b076579f40ed168aca58e797c65b7737",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A3_BS3_seed2026",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS3 -> Ppi_neg -> BS4",
+        "state_changes": 2,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS4",
+        "terminal_lock_ratio": 0.44,
+        "raw_terminal_supported_ratio": 0.833,
+        "minimum_sigma6_over_sigma1": 0.012954549341727963,
+        "minimum_rank_ratio_time_s": 2.8872,
+        "minimum_interface_distance_rad": 0.23669555480606647,
+        "minimum_folded_distance_rad": 3.700878862049606,
+        "max_closure_position_m": 2.6335463192533876e-06,
+        "max_closure_chordal": 0.016587227329689876,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A6_BS1_seed7",
+      "training_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "checkpoint_sha256": "cf0ad4754562d51177bfa74e5354d0f350a09f21f2e398b765369dcee8ed4cf0",
+      "trace_sha256": "734f8489ba9b4a1b329a66f189d6fd9dfdfab911d605921f00970dcac6f35859",
+      "original_frames_sha256": "b2b9098e213f0124ce1df8f37a4a881b67ca40543db5ce92f6b721f7c83a722f",
+      "recomputed_frames_sha256": "b2b9098e213f0124ce1df8f37a4a881b67ca40543db5ce92f6b721f7c83a722f",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A6_BS1_seed7",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS1",
+        "state_changes": 0,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS1",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.0003370942246442448,
+        "minimum_rank_ratio_time_s": 2.7880000000000003,
+        "minimum_interface_distance_rad": 0.012828696692596741,
+        "minimum_folded_distance_rad": 2.7326892060691885,
+        "max_closure_position_m": 4.827223118769393e-07,
+        "max_closure_chordal": 0.004637538282450003,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A6_BS1_seed42",
+      "training_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "checkpoint_sha256": "27f58615dee683ce131d1d85d03e7b787c873a57349faf46fb5d3521236cec36",
+      "trace_sha256": "856d3f3f24e4146327df4003fb070b896c6103e463ebaeaa8681de6d2bbc6672",
+      "original_frames_sha256": "fcef7e738a1d9c1b2babe675f914324e0df812a4391b189dfc9dce265b6993d5",
+      "recomputed_frames_sha256": "fcef7e738a1d9c1b2babe675f914324e0df812a4391b189dfc9dce265b6993d5",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A6_BS1_seed42",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS1",
+        "state_changes": 0,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS1",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.00018432597261380131,
+        "minimum_rank_ratio_time_s": 6.1248000000000005,
+        "minimum_interface_distance_rad": 0.007129205256759864,
+        "minimum_folded_distance_rad": 2.732689319290193,
+        "max_closure_position_m": 5.444362777318284e-07,
+        "max_closure_chordal": 0.0063082280514582525,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A6_BS1_seed2026",
+      "training_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "checkpoint_sha256": "aac6730314a105d1a149e3261e16c7cc412dbed90f670acee80b3ce5aaf7637d",
+      "trace_sha256": "f923c3e1c23da8dac5073db1f8cdc50dc8bf5e99a6971fbc61fc188698826532",
+      "original_frames_sha256": "de279c1c021c3110aa445f85831b2de8e07b4f128e405e93889aaf48945d2a6f",
+      "recomputed_frames_sha256": "de279c1c021c3110aa445f85831b2de8e07b4f128e405e93889aaf48945d2a6f",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A6_BS1_seed2026",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS1",
+        "state_changes": 0,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS1",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 4.397993588800342e-05,
+        "minimum_rank_ratio_time_s": 5.7648,
+        "minimum_interface_distance_rad": 0.0018990101231847773,
+        "minimum_folded_distance_rad": 2.732691297525843,
+        "max_closure_position_m": 4.4971303261612585e-07,
+        "max_closure_chordal": 0.006908239327810193,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A6_BS3_seed7",
+      "training_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "checkpoint_sha256": "1c9036e2676918df4016796f3f4cda2e5237a448e7252cacb44bc6c879127bf9",
+      "trace_sha256": "d43f20a262eb9d96190a24d7a96876bacef8fa33e151237d256bfc38697a3e6a",
+      "original_frames_sha256": "3e560c265b9bdacd73e5a19b1476f0de63820f06ca6519d7f205a2c9187dd21d",
+      "recomputed_frames_sha256": "3e560c265b9bdacd73e5a19b1476f0de63820f06ca6519d7f205a2c9187dd21d",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A6_BS3_seed7",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS3",
+        "state_changes": 0,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS3",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.001319532216283177,
+        "minimum_rank_ratio_time_s": 5.8696,
+        "minimum_interface_distance_rad": 0.025369839944492635,
+        "minimum_folded_distance_rad": 3.7006067738732864,
+        "max_closure_position_m": 1.011739868249876e-06,
+        "max_closure_chordal": 0.00670510558518537,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A6_BS3_seed42",
+      "training_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-69cd9cad-5fbe-e351-56d7-6d7d5f835ca5",
+        "name": "NVIDIA GeForce RTX 5060 Ti"
+      },
+      "checkpoint_sha256": "566456144cbfeae8711c221638a23ab61bb79f2275af804cfbd9ce9905fc227f",
+      "trace_sha256": "00d33fd5552b528f9c1ce9fe9997e2e49a55b565b6f5cfab95b9a27cb0b2c5dd",
+      "original_frames_sha256": "c7a54fc408b126818c3dc22d068b40b17b828527083e86ad190ed51433616aa9",
+      "recomputed_frames_sha256": "c7a54fc408b126818c3dc22d068b40b17b828527083e86ad190ed51433616aa9",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A6_BS3_seed42",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS3",
+        "state_changes": 0,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS3",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.002641548056328399,
+        "minimum_rank_ratio_time_s": 2.7072000000000003,
+        "minimum_interface_distance_rad": 0.05116922973026749,
+        "minimum_folded_distance_rad": 3.7008506444565854,
+        "max_closure_position_m": 6.543334366438594e-07,
+        "max_closure_chordal": 0.003119639367837498,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    },
+    {
+      "job": "StageI_A6_BS3_seed2026",
+      "training_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "evaluation_gpu": {
+        "uuid": "GPU-c497c357-be94-39a8-3a6e-8d4e3bff76ce",
+        "name": "NVIDIA RTX 2000 Ada Generation"
+      },
+      "checkpoint_sha256": "d554758e24ed56cf75dff42e63f99493c06ce59a2dbea777e4da0abf0e862b01",
+      "trace_sha256": "9b8cd4545816096c1ceba9318923fc005f153ec397c43818d156eb77bfb14942",
+      "original_frames_sha256": "25e37d105dbf6b6374c92f62732e5d93992d88c182677436c4144c8c6854f461",
+      "recomputed_frames_sha256": "25e37d105dbf6b6374c92f62732e5d93992d88c182677436c4144c8c6854f461",
+      "classification_recomputed": true,
+      "summary": {
+        "scope": "formal_stage1_regular_classification",
+        "job": "StageI_A6_BS3_seed2026",
+        "requested_steps": 10000,
+        "recorded_steps": 10000,
+        "analyzed_steps": 9999,
+        "physical_first_sample_s": 0.0008,
+        "physical_last_sample_s": 7.9992,
+        "reset_steps": [
+          10000
+        ],
+        "excluded_final_sample": true,
+        "sequence_eight": "BS3",
+        "state_changes": 0,
+        "topology_candidates": 0,
+        "strict_rank_five_switches": 0,
+        "terminal_confirmed": "BS3",
+        "terminal_lock_ratio": 1.0,
+        "raw_terminal_supported_ratio": 1.0,
+        "minimum_sigma6_over_sigma1": 0.002384298388808893,
+        "minimum_rank_ratio_time_s": 2.7848,
+        "minimum_interface_distance_rad": 0.04584196162398069,
+        "minimum_folded_distance_rad": 3.700697948412778,
+        "max_closure_position_m": 7.697375299011778e-07,
+        "max_closure_chordal": 0.005935268429549141,
+        "rank_tolerance": 1e-10,
+        "thresholds": {
+          "W": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "tau_d": 0.055,
+          "tau_m": 0.015,
+          "tau_closure_pos": 0.065,
+          "tau_closure_ang": 0.05,
+          "tau_gateway": 0.15,
+          "n_dwell": 720,
+          "terminal_frac": 0.2,
+          "lock_consecutive": 720
+        },
+        "all_states_finite": true,
+        "limitations": "保留协调先验；标签驻留不是物理切换，理想秩阈值未按柔顺误差校准"
+      }
+    }
+  ]
+}
