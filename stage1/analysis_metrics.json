@@ -124,7 +124,7 @@
     "terminal_frac": 0.2,
     "lock_consecutive": 720
   },
-  "paper_path": "E:\\hub\\02\u8bba\u6587\u6b63\u6587\\001paper\\06_\u7f16\u8bd1\u8f93\u51fa\\2026-10-04_MMT_TopologyRevised\\paper_mmt_topology_revised.tex",
+  "paper_path": "E:\\hub\\02论文正文\\001paper\\06_编译输出\\2026-10-04_MMT_TopologyRevised\\paper_mmt_topology_revised.tex",
   "manuscript_fig8_label": "fig:stage1_screening",
   "rank_relative_tolerance": 1e-10,
   "legacy_sigma_absolute_tolerance": 0.0001,
