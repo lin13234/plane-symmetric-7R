@@ -1,0 +1,306 @@
+{
+  "evidence": "EXACT PROOF",
+  "space": "T^7; no collision or joint limits",
+  "nodes": [
+    {
+      "id": "G1",
+      "component": "K+",
+      "rank": 5
+    },
+    {
+      "id": "H1",
+      "component": "K+",
+      "rank": 5
+    },
+    {
+      "id": "G2",
+      "component": "K+",
+      "rank": 5
+    },
+    {
+      "id": "H2",
+      "component": "K+",
+      "rank": 5
+    },
+    {
+      "id": "G3",
+      "component": "K-",
+      "rank": 5
+    },
+    {
+      "id": "H3",
+      "component": "K-",
+      "rank": 5
+    },
+    {
+      "id": "G4",
+      "component": "K-",
+      "rank": 5
+    },
+    {
+      "id": "H4",
+      "component": "K-",
+      "rank": 5
+    },
+    {
+      "id": "F0-1",
+      "component": "F0-1",
+      "rank": 6,
+      "artificial_graph_vertex": true
+    },
+    {
+      "id": "F0+1",
+      "component": "F0+1",
+      "rank": 6,
+      "artificial_graph_vertex": true
+    },
+    {
+      "id": "F1-1",
+      "component": "F1-1",
+      "rank": 6,
+      "artificial_graph_vertex": true
+    },
+    {
+      "id": "F1+1",
+      "component": "F1+1",
+      "rank": 6,
+      "artificial_graph_vertex": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "P0+_arc0",
+      "from": "G1",
+      "to": "G2",
+      "circle": "P0+",
+      "type": "planar"
+    },
+    {
+      "id": "P0+_arc1",
+      "from": "G1",
+      "to": "G2",
+      "circle": "P0+",
+      "type": "planar"
+    },
+    {
+      "id": "P1+_arc0",
+      "from": "H1",
+      "to": "H2",
+      "circle": "P1+",
+      "type": "planar"
+    },
+    {
+      "id": "P1+_arc1",
+      "from": "H1",
+      "to": "H2",
+      "circle": "P1+",
+      "type": "planar"
+    },
+    {
+      "id": "S1_arc0",
+      "from": "G1",
+      "to": "H1",
+      "circle": "S1",
+      "type": "spatial"
+    },
+    {
+      "id": "S1_arc1",
+      "from": "G1",
+      "to": "H1",
+      "circle": "S1",
+      "type": "spatial"
+    },
+    {
+      "id": "S2_arc0",
+      "from": "G2",
+      "to": "H2",
+      "circle": "S2",
+      "type": "spatial"
+    },
+    {
+      "id": "S2_arc1",
+      "from": "G2",
+      "to": "H2",
+      "circle": "S2",
+      "type": "spatial"
+    },
+    {
+      "id": "P0-_arc0",
+      "from": "G3",
+      "to": "G4",
+      "circle": "P0-",
+      "type": "planar"
+    },
+    {
+      "id": "P0-_arc1",
+      "from": "G3",
+      "to": "G4",
+      "circle": "P0-",
+      "type": "planar"
+    },
+    {
+      "id": "P1-_arc0",
+      "from": "H3",
+      "to": "H4",
+      "circle": "P1-",
+      "type": "planar"
+    },
+    {
+      "id": "P1-_arc1",
+      "from": "H3",
+      "to": "H4",
+      "circle": "P1-",
+      "type": "planar"
+    },
+    {
+      "id": "S3_arc0",
+      "from": "G3",
+      "to": "H3",
+      "circle": "S3",
+      "type": "spatial"
+    },
+    {
+      "id": "S3_arc1",
+      "from": "G3",
+      "to": "H3",
+      "circle": "S3",
+      "type": "spatial"
+    },
+    {
+      "id": "S4_arc0",
+      "from": "G4",
+      "to": "H4",
+      "circle": "S4",
+      "type": "spatial"
+    },
+    {
+      "id": "S4_arc1",
+      "from": "G4",
+      "to": "H4",
+      "circle": "S4",
+      "type": "spatial"
+    },
+    {
+      "id": "F0-1",
+      "from": "F0-1",
+      "to": "F0-1",
+      "circle": "F0-1",
+      "type": "folded_planar"
+    },
+    {
+      "id": "F0+1",
+      "from": "F0+1",
+      "to": "F0+1",
+      "circle": "F0+1",
+      "type": "folded_planar"
+    },
+    {
+      "id": "F1-1",
+      "from": "F1-1",
+      "to": "F1-1",
+      "circle": "F1-1",
+      "type": "folded_planar"
+    },
+    {
+      "id": "F1+1",
+      "from": "F1+1",
+      "to": "F1+1",
+      "circle": "F1+1",
+      "type": "folded_planar"
+    }
+  ],
+  "analytic_circles": [
+    {
+      "id": "P0+",
+      "type": "planar",
+      "nodes": [
+        "G1",
+        "G2"
+      ]
+    },
+    {
+      "id": "P1+",
+      "type": "planar",
+      "nodes": [
+        "H1",
+        "H2"
+      ]
+    },
+    {
+      "id": "S1",
+      "type": "spatial",
+      "nodes": [
+        "G1",
+        "H1"
+      ]
+    },
+    {
+      "id": "S2",
+      "type": "spatial",
+      "nodes": [
+        "G2",
+        "H2"
+      ]
+    },
+    {
+      "id": "P0-",
+      "type": "planar",
+      "nodes": [
+        "G3",
+        "G4"
+      ]
+    },
+    {
+      "id": "P1-",
+      "type": "planar",
+      "nodes": [
+        "H3",
+        "H4"
+      ]
+    },
+    {
+      "id": "S3",
+      "type": "spatial",
+      "nodes": [
+        "G3",
+        "H3"
+      ]
+    },
+    {
+      "id": "S4",
+      "type": "spatial",
+      "nodes": [
+        "G4",
+        "H4"
+      ]
+    },
+    {
+      "id": "F0-1",
+      "type": "folded_planar",
+      "nodes": []
+    },
+    {
+      "id": "F0+1",
+      "type": "folded_planar",
+      "nodes": []
+    },
+    {
+      "id": "F1-1",
+      "type": "folded_planar",
+      "nodes": []
+    },
+    {
+      "id": "F1+1",
+      "type": "folded_planar",
+      "nodes": []
+    }
+  ],
+  "counts": {
+    "connected_components": 6,
+    "planar_circles": 8,
+    "spatial_circles": 4,
+    "vertices": 12,
+    "edges": 20,
+    "first_betti_number": 14
+  }
+}

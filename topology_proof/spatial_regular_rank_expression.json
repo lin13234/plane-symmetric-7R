@@ -1,0 +1,13 @@
+{
+  "full_passive_det_before_recovery": "5*(-5*W*c**2*h**2*k*v - 5*W*c**2*h**2*v - 5*W*c*h*k**2*r - 5*W*c*h*k*r - 4*W*c*h*k*v - 4*W*h**2*k**2*r - 4*W*h**2*k*r + 5*W*h**2*k*v + 5*W*h**2*v + 4*W*k*r + 4*W*r + 5*Y*c*h*k*v + 5*Y*h**2*k**2*r + 5*Y*h**2*k*r + 5*Y*k*r*t - 5*Y*k*r + 5*Y*r*t - 5*Y*r)/4",
+  "simplified_full_passive_det": "5*c^2*sin(x)*J0/(2*D2*N)",
+  "J0": "5*c**2*h*t - 4*c*t - 5*h*t + 5*h",
+  "numerator_identity": true,
+  "denominator_identity": true,
+  "rank_zero_eliminant": "c**2*(625*c**4 - 800*c**2 + 1856)*(2475*c**8 - 4166*c**6 + 3681*c**4 + 5130*c**2 - 15525)",
+  "eliminant_ideal_membership": true,
+  "K_positive_certificate": "625*(c^2-16/25)^2+1600 > 0",
+  "R_upper_bound_on_unit_interval": -4239,
+  "normal_chart": "sin(x)!=0; cos(x)!=0; cos(z)!=0; N!=0; D2>0",
+  "passed": true
+}

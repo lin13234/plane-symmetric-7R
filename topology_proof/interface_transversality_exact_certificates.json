@@ -1,0 +1,234 @@
+[
+  {
+    "state": "G1",
+    "offdiagonal_blocks_zero": true,
+    "rank_J": 5,
+    "v_P": [
+      "-1",
+      "1",
+      "0",
+      "1/5",
+      "0",
+      "1/5",
+      "0"
+    ],
+    "v_S": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "-2",
+      "0",
+      "-1"
+    ],
+    "v_S_equals_e3_minus_2cosz_e5_minus_e7": true,
+    "J_vP_zero": true,
+    "J_vS_zero": true,
+    "disjoint_supports": true,
+    "independent": true,
+    "passed": true
+  },
+  {
+    "state": "G2",
+    "offdiagonal_blocks_zero": true,
+    "rank_J": 5,
+    "v_P": [
+      "-1",
+      "1",
+      "0",
+      "-1/5",
+      "0",
+      "-1/5",
+      "0"
+    ],
+    "v_S": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "-48/41 - 10*sqrt(5)/41",
+      "0",
+      "-1"
+    ],
+    "v_S_equals_e3_minus_2cosz_e5_minus_e7": true,
+    "J_vP_zero": true,
+    "J_vS_zero": true,
+    "disjoint_supports": true,
+    "independent": true,
+    "passed": true
+  },
+  {
+    "state": "G3",
+    "offdiagonal_blocks_zero": true,
+    "rank_J": 5,
+    "v_P": [
+      "-1",
+      "1",
+      "0",
+      "1/5",
+      "0",
+      "1/5",
+      "0"
+    ],
+    "v_S": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "18/41",
+      "0",
+      "-1"
+    ],
+    "v_S_equals_e3_minus_2cosz_e5_minus_e7": true,
+    "J_vP_zero": true,
+    "J_vS_zero": true,
+    "disjoint_supports": true,
+    "independent": true,
+    "passed": true
+  },
+  {
+    "state": "G4",
+    "offdiagonal_blocks_zero": true,
+    "rank_J": 5,
+    "v_P": [
+      "-1",
+      "1",
+      "0",
+      "-1/5",
+      "0",
+      "-1/5",
+      "0"
+    ],
+    "v_S": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "-48/41 + 10*sqrt(5)/41",
+      "0",
+      "-1"
+    ],
+    "v_S_equals_e3_minus_2cosz_e5_minus_e7": true,
+    "J_vP_zero": true,
+    "J_vS_zero": true,
+    "disjoint_supports": true,
+    "independent": true,
+    "passed": true
+  },
+  {
+    "state": "H1",
+    "offdiagonal_blocks_zero": true,
+    "rank_J": 5,
+    "v_P": [
+      "-1",
+      "1",
+      "0",
+      "-1/5",
+      "0",
+      "-1/5",
+      "0"
+    ],
+    "v_S": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "2",
+      "0",
+      "-1"
+    ],
+    "v_S_equals_e3_minus_2cosz_e5_minus_e7": true,
+    "J_vP_zero": true,
+    "J_vS_zero": true,
+    "disjoint_supports": true,
+    "independent": true,
+    "passed": true
+  },
+  {
+    "state": "H2",
+    "offdiagonal_blocks_zero": true,
+    "rank_J": 5,
+    "v_P": [
+      "-1",
+      "1",
+      "0",
+      "1/5",
+      "0",
+      "1/5",
+      "0"
+    ],
+    "v_S": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "10*sqrt(5)/41 + 48/41",
+      "0",
+      "-1"
+    ],
+    "v_S_equals_e3_minus_2cosz_e5_minus_e7": true,
+    "J_vP_zero": true,
+    "J_vS_zero": true,
+    "disjoint_supports": true,
+    "independent": true,
+    "passed": true
+  },
+  {
+    "state": "H3",
+    "offdiagonal_blocks_zero": true,
+    "rank_J": 5,
+    "v_P": [
+      "-1",
+      "1",
+      "0",
+      "-1/5",
+      "0",
+      "-1/5",
+      "0"
+    ],
+    "v_S": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "-18/41",
+      "0",
+      "-1"
+    ],
+    "v_S_equals_e3_minus_2cosz_e5_minus_e7": true,
+    "J_vP_zero": true,
+    "J_vS_zero": true,
+    "disjoint_supports": true,
+    "independent": true,
+    "passed": true
+  },
+  {
+    "state": "H4",
+    "offdiagonal_blocks_zero": true,
+    "rank_J": 5,
+    "v_P": [
+      "-1",
+      "1",
+      "0",
+      "1/5",
+      "0",
+      "1/5",
+      "0"
+    ],
+    "v_S": [
+      "0",
+      "0",
+      "1",
+      "0",
+      "48/41 - 10*sqrt(5)/41",
+      "0",
+      "-1"
+    ],
+    "v_S_equals_e3_minus_2cosz_e5_minus_e7": true,
+    "J_vP_zero": true,
+    "J_vS_zero": true,
+    "disjoint_supports": true,
+    "independent": true,
+    "passed": true
+  }
+]

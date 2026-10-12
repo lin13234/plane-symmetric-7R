@@ -1,0 +1,23 @@
+{
+  "plus_one_leading_coefficient": "-4*(15*kappa**2 - 1)",
+  "minus_one_leading_coefficient": "-4*(15*kappa**2 - 80*kappa + 99)",
+  "plus_one_slopes": [
+    "-1/sqrt(15)",
+    "1/sqrt(15)"
+  ],
+  "minus_one_slopes": [
+    "(40-sqrt(115))/15",
+    "(40+sqrt(115))/15"
+  ],
+  "infinity_cubic_at_c_minus_three_fifths": "-12*Z**3 - 564*Z**2/25 + 84*Z - 48",
+  "finite_negative_roots": 1,
+  "finite_positive_roots": 2,
+  "gateway_mapping": {
+    "S1": "G1 to H1",
+    "S2": "G2 to H2",
+    "S3": "G3 to H3",
+    "S4": "G4 to H4"
+  },
+  "proof": "distinct projective roots away from c=0; exact signed y and full passive invertibility at c=0; infinity order fixed by leading-coefficient sign",
+  "passed": true
+}

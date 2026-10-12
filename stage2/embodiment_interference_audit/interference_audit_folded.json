@@ -1,0 +1,154 @@
+{
+ "F_0_+": {
+  "free_fraction": 0.0,
+  "free_t_deg": [],
+  "worst_pen_mm": -32.10491529297191,
+  "max_weld_violation": 2.7755575615628914e-16,
+  "pairs": [
+   [
+    "L-link1",
+    "L-link3"
+   ],
+   [
+    "L-link1",
+    "R-link3"
+   ],
+   [
+    "L-link2",
+    "R-link2"
+   ],
+   [
+    "L-link2",
+    "R-link3"
+   ],
+   [
+    "L-link3",
+    "R-link1"
+   ],
+   [
+    "L-link3",
+    "R-link2"
+   ],
+   [
+    "R-link1",
+    "R-link3"
+   ]
+  ]
+ },
+ "F_0_-": {
+  "free_fraction": 0.0,
+  "free_t_deg": [],
+  "worst_pen_mm": -43.935779317520215,
+  "max_weld_violation": 3.3306690738754696e-16,
+  "pairs": [
+   [
+    "L-link1",
+    "L-link3"
+   ],
+   [
+    "L-link1",
+    "R-link1"
+   ],
+   [
+    "L-link1",
+    "R-link3"
+   ],
+   [
+    "L-link2",
+    "R-link2"
+   ],
+   [
+    "L-link2",
+    "R-link3"
+   ],
+   [
+    "L-link3",
+    "R-link1"
+   ],
+   [
+    "L-link3",
+    "R-link2"
+   ],
+   [
+    "R-link1",
+    "R-link3"
+   ]
+  ]
+ },
+ "F_1_+": {
+  "free_fraction": 0.0,
+  "free_t_deg": [],
+  "worst_pen_mm": -32.105089230332894,
+  "max_weld_violation": 2.7755575615628914e-16,
+  "pairs": [
+   [
+    "L-link1",
+    "L-link3"
+   ],
+   [
+    "L-link1",
+    "R-link3"
+   ],
+   [
+    "L-link2",
+    "R-link2"
+   ],
+   [
+    "L-link2",
+    "R-link3"
+   ],
+   [
+    "L-link3",
+    "R-link1"
+   ],
+   [
+    "L-link3",
+    "R-link2"
+   ],
+   [
+    "R-link1",
+    "R-link3"
+   ]
+  ]
+ },
+ "F_1_-": {
+  "free_fraction": 0.0,
+  "free_t_deg": [],
+  "worst_pen_mm": -43.93577931752027,
+  "max_weld_violation": 6.106226635438361e-16,
+  "pairs": [
+   [
+    "L-link1",
+    "L-link3"
+   ],
+   [
+    "L-link1",
+    "R-link1"
+   ],
+   [
+    "L-link1",
+    "R-link3"
+   ],
+   [
+    "L-link2",
+    "R-link2"
+   ],
+   [
+    "L-link2",
+    "R-link3"
+   ],
+   [
+    "L-link3",
+    "R-link1"
+   ],
+   [
+    "L-link3",
+    "R-link2"
+   ],
+   [
+    "R-link1",
+    "R-link3"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "xml": "assets/zhengti_stage2_mesh_collision.xml",
+ "map": "qpos[joint2,joint3,joint4,joint5,joint6,joint7,joint1]=[q2,q3,-q4,q5,q6,-q7,q1]",
+ "threshold_m": 0.001,
+ "step_deg": 2.0,
+ "planar": {
+  "P_0_+": {
+   "free_fraction": 0.7,
+   "free_q2_deg": [
+    [
+     256.0,
+     506.0
+    ]
+   ],
+   "worst_pen_mm": -43.31172448967911,
+   "max_weld_violation": 4.996003610813204e-16,
+   "pairs": [
+    [
+     "L-link1",
+     "R-link1"
+    ]
+   ]
+  },
+  "P_0_-": {
+   "free_fraction": 0.0,
+   "free_q2_deg": [],
+   "worst_pen_mm": -44.492864784714065,
+   "max_weld_violation": 6.661338147750939e-16,
+   "pairs": [
+    [
+     "L-link1",
+     "L-link3"
+    ],
+    [
+     "L-link1",
+     "R-link1"
+    ],
+    [
+     "L-link1",
+     "R-link3"
+    ],
+    [
+     "L-link3",
+     "R-link1"
+    ],
+    [
+     "R-link1",
+     "R-link3"
+    ]
+   ]
+  },
+  "P_pi_+": {
+   "free_fraction": 0.7,
+   "free_q2_deg": [
+    [
+     256.0,
+     506.0
+    ]
+   ],
+   "worst_pen_mm": -43.311724489679115,
+   "max_weld_violation": 3.3306690738754696e-16,
+   "pairs": [
+    [
+     "L-link1",
+     "R-link1"
+    ]
+   ]
+  },
+  "P_pi_-": {
+   "free_fraction": 0.0,
+   "free_q2_deg": [],
+   "worst_pen_mm": -44.492864784714065,
+   "max_weld_violation": 4.996003610813204e-16,
+   "pairs": [
+    [
+     "L-link1",
+     "L-link3"
+    ],
+    [
+     "L-link1",
+     "R-link1"
+    ],
+    [
+     "L-link1",
+     "R-link3"
+    ],
+    [
+     "L-link3",
+     "R-link1"
+    ],
+    [
+     "R-link1",
+     "R-link3"
+    ]
+   ]
+  }
+ },
+ "spatial": {
+  "S1": {
+   "closure_res_max": 2.545416345000499e-15,
+   "return_to_Gk": 4.440892098500626e-16,
+   "dist_to_Hk_at_q3_180": 4.440892098500626e-16,
+   "free_fraction": 1.0,
+   "free_q3_deg": [
+    [
+     0.0,
+     360.0
+    ]
+   ],
+   "worst_pen_mm": 0.0,
+   "max_weld_violation": 4.0038012777660667e-16,
+   "pairs": []
+  },
+  "S2": {
+   "closure_res_max": 8.881784197001252e-15,
+   "return_to_Gk": 8.881784197001252e-16,
+   "dist_to_Hk_at_q3_180": 8.881784197001252e-16,
+   "free_fraction": 0.0,
+   "free_q3_deg": [],
+   "worst_pen_mm": -43.06783775126361,
+   "max_weld_violation": 1.304512053934559e-15,
+   "pairs": [
+    [
+     "L-link1",
+     "R-link1"
+    ]
+   ]
+  },
+  "S3": {
+   "closure_res_max": 2.713903801262513e-15,
+   "return_to_Gk": 0.0,
+   "dist_to_Hk_at_q3_180": 8.881784197001252e-16,
+   "free_fraction": 0.0,
+   "free_q3_deg": [],
+   "worst_pen_mm": -26.310522417180383,
+   "max_weld_violation": 8.881784197001252e-16,
+   "pairs": [
+    [
+     "L-link1",
+     "L-link3"
+    ],
+    [
+     "R-link1",
+     "R-link3"
+    ]
+   ]
+  },
+  "S4": {
+   "closure_res_max": 2.8627329959116472e-15,
+   "return_to_Gk": 0.0,
+   "dist_to_Hk_at_q3_180": 8.881784197001252e-16,
+   "free_fraction": 0.0,
+   "free_q3_deg": [],
+   "worst_pen_mm": -44.44792128548113,
+   "max_weld_violation": 1.1657341758564144e-15,
+   "pairs": [
+    [
+     "L-link1",
+     "L-link3"
+    ],
+    [
+     "L-link1",
+     "R-link1"
+    ],
+    [
+     "L-link1",
+     "R-link3"
+    ],
+    [
+     "L-link3",
+     "R-link1"
+    ],
+    [
+     "R-link1",
+     "R-link3"
+    ]
+   ]
+  }
+ }
+}

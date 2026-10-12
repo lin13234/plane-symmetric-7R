@@ -1,0 +1,234 @@
+[
+  {
+    "state": "G1",
+    "cos_y": "1",
+    "sin_y": "0",
+    "cos_z": "1",
+    "sin_z": "0",
+    "full_loop_identity": true,
+    "det_passive_block": "0",
+    "nonzero_active_minor": {
+      "cols": [
+        1,
+        2,
+        4
+      ],
+      "det": "-5/2"
+    },
+    "nonzero_passive_minor": {
+      "rows": [
+        3,
+        5
+      ],
+      "cols": [
+        3,
+        5
+      ],
+      "det": "5/2"
+    },
+    "full_rank": 5
+  },
+  {
+    "state": "G2",
+    "cos_y": "-24/41 - 5*sqrt(5)/41",
+    "sin_y": "-30/41 + 4*sqrt(5)/41",
+    "cos_z": "5*sqrt(5)/41 + 24/41",
+    "sin_z": "30/41 - 4*sqrt(5)/41",
+    "full_loop_identity": true,
+    "det_passive_block": "0",
+    "nonzero_active_minor": {
+      "cols": [
+        1,
+        2,
+        4
+      ],
+      "det": "sqrt(5)/2"
+    },
+    "nonzero_passive_minor": {
+      "rows": [
+        1,
+        3
+      ],
+      "cols": [
+        3,
+        5
+      ],
+      "det": "-30/41 + 4*sqrt(5)/41"
+    },
+    "full_rank": 5
+  },
+  {
+    "state": "G3",
+    "cos_y": "-9/41",
+    "sin_y": "40/41",
+    "cos_z": "-9/41",
+    "sin_z": "40/41",
+    "full_loop_identity": true,
+    "det_passive_block": "0",
+    "nonzero_active_minor": {
+      "cols": [
+        1,
+        2,
+        4
+      ],
+      "det": "5/2"
+    },
+    "nonzero_passive_minor": {
+      "rows": [
+        1,
+        3
+      ],
+      "cols": [
+        3,
+        5
+      ],
+      "det": "-40/41"
+    },
+    "full_rank": 5
+  },
+  {
+    "state": "G4",
+    "cos_y": "-24/41 + 5*sqrt(5)/41",
+    "sin_y": "-30/41 - 4*sqrt(5)/41",
+    "cos_z": "24/41 - 5*sqrt(5)/41",
+    "sin_z": "4*sqrt(5)/41 + 30/41",
+    "full_loop_identity": true,
+    "det_passive_block": "0",
+    "nonzero_active_minor": {
+      "cols": [
+        1,
+        2,
+        4
+      ],
+      "det": "-sqrt(5)/2"
+    },
+    "nonzero_passive_minor": {
+      "rows": [
+        1,
+        3
+      ],
+      "cols": [
+        3,
+        5
+      ],
+      "det": "-30/41 - 4*sqrt(5)/41"
+    },
+    "full_rank": 5
+  },
+  {
+    "state": "H1",
+    "cos_y": "1",
+    "sin_y": "0",
+    "cos_z": "-1",
+    "sin_z": "0",
+    "full_loop_identity": true,
+    "det_passive_block": "0",
+    "nonzero_active_minor": {
+      "cols": [
+        1,
+        2,
+        4
+      ],
+      "det": "5/2"
+    },
+    "nonzero_passive_minor": {
+      "rows": [
+        3,
+        5
+      ],
+      "cols": [
+        3,
+        5
+      ],
+      "det": "-5/2"
+    },
+    "full_rank": 5
+  },
+  {
+    "state": "H2",
+    "cos_y": "-24/41 - 5*sqrt(5)/41",
+    "sin_y": "-30/41 + 4*sqrt(5)/41",
+    "cos_z": "-24/41 - 5*sqrt(5)/41",
+    "sin_z": "30/41 - 4*sqrt(5)/41",
+    "full_loop_identity": true,
+    "det_passive_block": "0",
+    "nonzero_active_minor": {
+      "cols": [
+        1,
+        2,
+        4
+      ],
+      "det": "-sqrt(5)/2"
+    },
+    "nonzero_passive_minor": {
+      "rows": [
+        1,
+        3
+      ],
+      "cols": [
+        3,
+        5
+      ],
+      "det": "30/41 - 4*sqrt(5)/41"
+    },
+    "full_rank": 5
+  },
+  {
+    "state": "H3",
+    "cos_y": "-9/41",
+    "sin_y": "40/41",
+    "cos_z": "9/41",
+    "sin_z": "40/41",
+    "full_loop_identity": true,
+    "det_passive_block": "0",
+    "nonzero_active_minor": {
+      "cols": [
+        1,
+        2,
+        4
+      ],
+      "det": "-5/2"
+    },
+    "nonzero_passive_minor": {
+      "rows": [
+        1,
+        3
+      ],
+      "cols": [
+        3,
+        5
+      ],
+      "det": "40/41"
+    },
+    "full_rank": 5
+  },
+  {
+    "state": "H4",
+    "cos_y": "-24/41 + 5*sqrt(5)/41",
+    "sin_y": "-30/41 - 4*sqrt(5)/41",
+    "cos_z": "-24/41 + 5*sqrt(5)/41",
+    "sin_z": "4*sqrt(5)/41 + 30/41",
+    "full_loop_identity": true,
+    "det_passive_block": "0",
+    "nonzero_active_minor": {
+      "cols": [
+        1,
+        2,
+        4
+      ],
+      "det": "sqrt(5)/2"
+    },
+    "nonzero_passive_minor": {
+      "rows": [
+        1,
+        3
+      ],
+      "cols": [
+        3,
+        5
+      ],
+      "det": "4*sqrt(5)/41 + 30/41"
+    },
+    "full_rank": 5
+  }
+]

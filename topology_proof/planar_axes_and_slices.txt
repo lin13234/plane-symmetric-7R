@@ -1,0 +1,33 @@
+完整MDH平面轴条件及八切片（精确）
+
+切片 q3=0pi q5=0pi q7=0pi
+Matrix([[cos(q1 + q2 - q4 + q6), 0, -sin(q1 + q2 - q4 + q6), 5*sin(q1 + q2)/2 - 5*sin(q1 + q2 - q4 + q6)/2 + cos(q1) + 2*cos(q1 + q2) - 5*cos(q1 + q2 - q4) + 2], [0, 1, 0, 0], [sin(q1 + q2 - q4 + q6), 0, cos(q1 + q2 - q4 + q6), sin(q1) + 2*sin(q1 + q2) - 5*sin(q1 + q2 - q4) - 5*cos(q1 + q2)/2 + 5*cos(q1 + q2 - q4 + q6)/2], [0, 0, 0, 1]])
+轴上点相对高度=[0, 0, 0, 0]
+
+切片 q3=0pi q5=0pi q7=1pi
+Matrix([[-cos(q1 + q2 - q4 + q6), 0, -sin(q1 + q2 - q4 + q6), 5*sin(q1 + q2)/2 - 5*sin(q1 + q2 - q4 + q6)/2 + cos(q1) + 2*cos(q1 + q2) - 5*cos(q1 + q2 - q4) + 2], [0, -1, 0, 0], [-sin(q1 + q2 - q4 + q6), 0, cos(q1 + q2 - q4 + q6), sin(q1) + 2*sin(q1 + q2) - 5*sin(q1 + q2 - q4) - 5*cos(q1 + q2)/2 + 5*cos(q1 + q2 - q4 + q6)/2], [0, 0, 0, 1]])
+轴上点相对高度=[0, 0, 0, 0]
+
+切片 q3=0pi q5=1pi q7=0pi
+Matrix([[-cos(q1 + q2 - q4 - q6), 0, -sin(q1 + q2 - q4 - q6), 5*sin(q1 + q2)/2 - 5*sin(q1 + q2 - q4 - q6)/2 + cos(q1) + 2*cos(q1 + q2) + 2], [0, -1, 0, 0], [-sin(q1 + q2 - q4 - q6), 0, cos(q1 + q2 - q4 - q6), sin(q1) + 2*sin(q1 + q2) - 5*cos(q1 + q2)/2 + 5*cos(q1 + q2 - q4 - q6)/2], [0, 0, 0, 1]])
+轴上点相对高度=[0, 0, 0, 0]
+
+切片 q3=0pi q5=1pi q7=1pi
+Matrix([[cos(q1 + q2 - q4 - q6), 0, -sin(q1 + q2 - q4 - q6), 5*sin(q1 + q2)/2 - 5*sin(q1 + q2 - q4 - q6)/2 + cos(q1) + 2*cos(q1 + q2) + 2], [0, 1, 0, 0], [sin(q1 + q2 - q4 - q6), 0, cos(q1 + q2 - q4 - q6), sin(q1) + 2*sin(q1 + q2) - 5*cos(q1 + q2)/2 + 5*cos(q1 + q2 - q4 - q6)/2], [0, 0, 0, 1]])
+轴上点相对高度=[0, 0, 0, 0]
+
+切片 q3=1pi q5=0pi q7=0pi
+Matrix([[-cos(q1 + q2 + q4 - q6), 0, -sin(q1 + q2 + q4 - q6), 5*sin(q1 + q2)/2 - 5*sin(q1 + q2 + q4 - q6)/2 + cos(q1) + 2*cos(q1 + q2) + 5*cos(q1 + q2 + q4) + 2], [0, -1, 0, 0], [-sin(q1 + q2 + q4 - q6), 0, cos(q1 + q2 + q4 - q6), sin(q1) + 2*sin(q1 + q2) + 5*sin(q1 + q2 + q4) - 5*cos(q1 + q2)/2 + 5*cos(q1 + q2 + q4 - q6)/2], [0, 0, 0, 1]])
+轴上点相对高度=[0, 0, 0, 0]
+
+切片 q3=1pi q5=0pi q7=1pi
+Matrix([[cos(q1 + q2 + q4 - q6), 0, -sin(q1 + q2 + q4 - q6), 5*sin(q1 + q2)/2 - 5*sin(q1 + q2 + q4 - q6)/2 + cos(q1) + 2*cos(q1 + q2) + 5*cos(q1 + q2 + q4) + 2], [0, 1, 0, 0], [sin(q1 + q2 + q4 - q6), 0, cos(q1 + q2 + q4 - q6), sin(q1) + 2*sin(q1 + q2) + 5*sin(q1 + q2 + q4) - 5*cos(q1 + q2)/2 + 5*cos(q1 + q2 + q4 - q6)/2], [0, 0, 0, 1]])
+轴上点相对高度=[0, 0, 0, 0]
+
+切片 q3=1pi q5=1pi q7=0pi
+Matrix([[cos(q1 + q2 + q4 + q6), 0, -sin(q1 + q2 + q4 + q6), 5*sin(q1 + q2)/2 - 5*sin(q1 + q2 + q4 + q6)/2 + cos(q1) + 2*cos(q1 + q2) + 2], [0, 1, 0, 0], [sin(q1 + q2 + q4 + q6), 0, cos(q1 + q2 + q4 + q6), sin(q1) + 2*sin(q1 + q2) - 5*cos(q1 + q2)/2 + 5*cos(q1 + q2 + q4 + q6)/2], [0, 0, 0, 1]])
+轴上点相对高度=[0, 0, 0, 0]
+
+切片 q3=1pi q5=1pi q7=1pi
+Matrix([[-cos(q1 + q2 + q4 + q6), 0, -sin(q1 + q2 + q4 + q6), 5*sin(q1 + q2)/2 - 5*sin(q1 + q2 + q4 + q6)/2 + cos(q1) + 2*cos(q1 + q2) + 2], [0, -1, 0, 0], [-sin(q1 + q2 + q4 + q6), 0, cos(q1 + q2 + q4 + q6), sin(q1) + 2*sin(q1 + q2) - 5*cos(q1 + q2)/2 + 5*cos(q1 + q2 + q4 + q6)/2], [0, 0, 0, 1]])
+轴上点相对高度=[0, 0, 0, 0]

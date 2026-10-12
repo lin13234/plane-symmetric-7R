@@ -1,0 +1,112 @@
+<mujoco model="zhengti">
+
+    <visual>
+        <global realtime="1"  offwidth="1280" offheight="720"/>
+        <quality shadowsize="16384" numslices="28" offsamples="4" />
+        <headlight diffuse="1 1 1" specular="0.5 0.5 0.5" active="1" />
+    </visual>
+
+    <default>
+        <geom solref="0.015 1" solimp="0.9 0.99 0.0001" contype="0" conaffinity="0" />
+        <joint damping="0.5" frictionloss="0.00005" />
+        <equality solref="0.0001 1" solimp="0.98 0.98 0.001"/>
+    </default>
+
+    <asset>
+        <mesh name="base_link" file="meshes/base_link.STL" />
+        <mesh name="link0"     file="meshes/link0.STL" />
+        <mesh name="L-link1"   file="meshes/L-link1.STL" />
+        <mesh name="L-link2"   file="meshes/L-link2.STL" />
+        <mesh name="L-link3"   file="meshes/L-link3.STL" />
+        <mesh name="R-link3"   file="meshes/R-link3.STL" />
+        <mesh name="R-link2"   file="meshes/R-link2.STL" />
+        <mesh name="R-link1"   file="meshes/R-link1.STL" />
+
+        <texture name="plane" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 .1 .1" width="512" height="512" mark="cross" markrgb=".8 .8 .8" />
+        <material name="plane" reflectance="0.3" texture="plane" texrepeat="1 1" texuniform="true" />
+    </asset>
+
+    <worldbody>
+        <light directional="true" ambient=".3 .3 .3" pos="0 0 3" dir="0 0 -1" diffuse=".5 .5 .5" specular=".5 .5 .5" />
+        <geom name="floor" pos="0 0 0" size="100 100 .1" type="plane" solref="0.08 1.6" solimp="0.9 0.95 0.001 0.5 2" material="plane" condim="3" friction="0.3 0.005 0.0001" contype="1" conaffinity="1" />
+
+        <body name="link0" pos="0 0 0.40" euler="0 0 0">
+            <freejoint name="root_joint"/>
+            <camera name="my_cam" pos="0 -1.2 0.5" xyaxes="1 0 0 0 0 1" mode="trackcom"/>
+            <inertial pos="0.00113 0 -0.00246" mass="0.02000" fullinertia="2.8478e-06 1.3380e-05 1.6145e-05 0 -8.2000e-10 0" />
+            <site name="site_A" pos="-0.03 0 0" />
+            <site name="s11" pos="-0.03 1 0"/>
+            <site name="s12" pos="-0.03 -1 0"/>
+            <site name="s13" pos="-0.03 0 1"/>
+            <site name="s14" pos="-0.03 0 -1"/>
+            <site name="s15" pos="-0.13 0 1"/>
+            <site name="s16" pos="-0.13 0 -1"/>
+            <geom type="mesh" mesh="link0" group="1" contype="2" conaffinity="3" />
+
+            <body name="L-link1" pos="0.03 0 0" euler="0 0 0">
+                <joint name="joint2"  type="hinge" axis="0 0 1" armature="0.000007945" damping="0.01"/>
+                <inertial pos="0.06181 -0.03391 0.01698" mass="0.31652" fullinertia="4.3118e-04 9.1705e-04 1.2706e-03 -5.1036e-04 -1.1883e-05 8.8029e-06" />
+                <geom type="mesh" mesh="L-link1" group="1" contype="2" conaffinity="3" />
+
+                <body name="L-link2" pos="0.12 -0.0925 0.0175" euler="0 0 0">
+                    <joint name="joint3"  type="hinge" axis="0 -1 0" armature="0.0025" damping="0.05"/>
+                    <inertial pos="0.00000 -0.03581 0.00032" mass="0.04745" fullinertia="2.6403e-05 7.3150e-06 2.2672e-05 -1.8200e-09 3.4800e-09 -3.2812e-07"/>
+                    <geom type="mesh" mesh="L-link2" group="1" contype="2" conaffinity="3" />
+
+                    <body name="L-link3" pos="0 -0.0575 0" euler="0 0 0">
+                        <joint name="joint4"  type="hinge" axis="0 0 1" />
+                        <inertial pos="-0.06719 -0.05822 0" mass="0.14563" fullinertia="3.6895e-06 1.1533e-04 1.1500e-04 2.5897e-06 2.0000e-11 0" />
+                        <geom type="mesh" mesh="L-link3" group="1" contype="2" conaffinity="3" />
+
+                        <body name="R-link3" pos="-0.15 0 0" euler="0 0 0">
+                            <joint name="joint5"  type="hinge" axis="0 -1 0" />
+                           <inertial pos="-0.07007 0.00065 0" mass="0.14563" fullinertia="1.0259e-05 3.6492e-04 3.6697e-04 5.8743e-06 5.0500e-09 -8.6000e-10" />
+                            <geom type="mesh" mesh="R-link3" group="1" contype="2" conaffinity="3" />
+
+                            <body name="R-link2" pos="-0.150 0 0" euler="0 0 0">
+                                <joint name="joint6"  type="hinge" axis="0 0 1" />
+                                <inertial pos="0.00006 0.02154 0.00032" mass="0.04745" fullinertia="2.6582e-05 7.3423e-06 2.2830e-05 5.2380e-08 2.5600e-09 -3.2588e-07" />
+                                <geom type="mesh" mesh="R-link2" group="1" contype="2" conaffinity="3" />
+
+                                <body name="R-link1" pos="0 0.0335 0" euler="0 0 0">
+                                    <joint name="joint7"  type="hinge" axis="0 -1 0" armature="0.0025" damping="0.05"/>
+                                    <inertial pos="0.05827 0.08258 0.00104" mass="0.31652" fullinertia="4.3095e-04 9.2025e-04 1.2737e-03 5.1079e-04 1.1131e-05 8.4990e-06" />
+                                    <geom type="mesh" mesh="R-link1" group="1" contype="2" conaffinity="3" />
+
+                                    <body name="bodyb" pos="0.12 0.1165 -0.0175" euler="0 0 0">
+                                        <joint name="joint1" pos="0 0 0" type="hinge" axis="0 0 1" armature="0.000007945" damping="0.01"/>
+                                        <inertial pos="0 0 0" mass="0.001" diaginertia="1e-6 1e-6 1e-6"/>
+                                        <site name="site_dummy" pos="0 0 0" />
+                                        <site name="s21" pos="0 1 0"/>
+                                        <site name="s22" pos="0 -1 0"/>
+                                        <site name="s23" pos="0 0 1"/>
+                                        <site name="s24" pos="0 0 -1"/>
+                                        <site name="s25" pos="-0.10 0 1"/>
+                                        <site name="s26" pos="-0.10 0 -1"/>
+                                        <geom type="sphere" size="0.001" mass="0" contype="0" conaffinity="0" rgba="0 0 0 0"/>
+                                    </body>
+                                </body>
+                            </body>
+                        </body>
+                    </body>
+                </body>
+            </body>
+        </body>
+    </worldbody>
+
+    <contact>
+      <!-- 闭链焊接端的机械相邻件：排除必然重叠的 mesh 凸包接触。 -->
+      <exclude body1="link0" body2="R-link1"/>
+    </contact>
+
+    <equality>
+      <weld name="close_the_loop" site1="site_A" site2="site_dummy" />
+    </equality>
+
+   <actuator>
+        <position name="v1" joint="joint1" kp="20" forcerange="-0.68 0.68" forcelimited="true"/>
+        <position name="v2" joint="joint2" kp="20" forcerange="-0.68 0.68" forcelimited="true"/>
+        <position name="v3" joint="joint3" kp="50" forcerange="-1.8 1.8" forcelimited="true"/>
+        <position name="v7" joint="joint7" kp="50" forcerange="-1.8 1.8" forcelimited="true"/>
+    </actuator>
+</mujoco>

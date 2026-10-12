@@ -1,0 +1,134 @@
+{
+  "n_replays": 36,
+  "seeds": [
+    7,
+    42,
+    2026
+  ],
+  "requested_seeds_missing": [
+    43,
+    44
+  ],
+  "legacy_state_changes": 40,
+  "legacy_topology_candidates": 1,
+  "legacy_absolute_rank_passes": 0,
+  "legacy_audit_flags_reproduced": true,
+  "new_state_changes": 41,
+  "new_topology_candidates": 1,
+  "strict_rank_five_switches": 0,
+  "chosen_event": {
+    "confirmation_frame": 9450,
+    "support_start_frame": 8731,
+    "from_branch": "P0_neg",
+    "to_branch": "BS3",
+    "event_type": "state_change",
+    "replay": "G3_A1_seed2026",
+    "assembly": "neg",
+    "condition": "A1",
+    "seed": 2026,
+    "confirmation_time_s": 7.5600000000000005,
+    "support_start_time_s": 6.9848,
+    "window_start_frame": 8011,
+    "window_end_frame_exclusive": 9451,
+    "nearest_expected_interface": "G3",
+    "candidate_frame": 8394,
+    "candidate_time_s": 6.7152,
+    "interface_distance_rad": 0.13564177731054902,
+    "closure_valid_window": true,
+    "max_q_step_rad": 0.014535734711515577,
+    "distance_exchange": true,
+    "sigma6_closure_Jc": 0.02889682087233478,
+    "sigma6_screw_J": 0.028896820752598303,
+    "rank_Jc_relative_1e_10": 6,
+    "topology_consistent_candidate": true,
+    "legacy_absolute_rank_test": false,
+    "strict_rank_five_verified": false
+  },
+  "mdh_batch_error": 0.0,
+  "screw_batch_error": 4.440892098500626e-16,
+  "log_jacobian_finite_difference_error": 1.3274554788722526e-09,
+  "folded_min_distance_rad": 2.428880288038145,
+  "max_grid_vs_brute_error": 8.43769498715119e-15,
+  "thresholds": {
+    "W": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "tau_d": 0.055,
+    "tau_m": 0.015,
+    "tau_closure_pos": 0.065,
+    "tau_closure_ang": 0.05,
+    "tau_gateway": 0.15,
+    "n_dwell": 720,
+    "terminal_frac": 0.2,
+    "lock_consecutive": 720
+  },
+  "paper_path": "E:\\hub\\02\u8bba\u6587\u6b63\u6587\\001paper\\06_\u7f16\u8bd1\u8f93\u51fa\\2026-10-04_MMT_TopologyRevised\\paper_mmt_topology_revised.tex",
+  "manuscript_fig8_label": "fig:stage1_screening",
+  "rank_relative_tolerance": 1e-10,
+  "legacy_sigma_absolute_tolerance": 0.0001,
+  "xml_characteristic_l_m": 0.06,
+  "manuscript_characteristic_length_stated": "l=40 (length unit not explicitly written at equation)",
+  "requested_seed43_44_paths_in_formal_campaign": []
+}

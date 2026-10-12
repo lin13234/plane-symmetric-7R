@@ -1,0 +1,66 @@
+[
+  {
+    "a": 0,
+    "passive_determinant_before_translation": "-5*(2*CQ*H*V - 2*H**2*SQ + SQ)/2",
+    "translation_equations": [
+      "(2*C1 - 10*CQ*H + 4*CQ - 10*SQ*V + 5*SQ + 4)/2",
+      "0",
+      "(10*CQ*V - 5*CQ - 10*H*SQ + 2*S1 + 4*SQ + 5)/2"
+    ],
+    "active_3x3_minors": {
+      "(0, 1, 2)": "-(5*C1*CQ - 4*C1*SQ + 4*CQ*S1 + 5*S1*SQ)/2",
+      "(0, 1, 3)": "-(10*C1*CQ*V - 5*C1*CQ - 10*C1*H*SQ + 4*C1*SQ + 10*CQ*H*S1 - 4*CQ*S1 + 10*S1*SQ*V - 5*S1*SQ)/2",
+      "(0, 2, 3)": "5*(2*C1*CQ*V - 2*C1*H*SQ + 2*CQ*H*S1 - 5*H + 2*S1*SQ*V + 4*V)/2",
+      "(1, 2, 3)": "-5*(5*H - 4*V)/2"
+    },
+    "passive_block": [
+      [
+        "SQ",
+        "-CQ*V + H*SQ",
+        "0"
+      ],
+      [
+        "-CQ",
+        "-CQ*H - SQ*V",
+        "1"
+      ],
+      [
+        "C1*CQ + 2*CQ + S1*SQ + 2",
+        "(2*C1*CQ*H + 2*C1*SQ*V + 4*CQ*H - 2*CQ*S1*V + 2*H*S1*SQ + 4*H + 4*SQ*V + 5*V - 5)/2",
+        "-(2*C1 - 10*CQ*H + 4*CQ - 10*SQ*V + 5*SQ + 4)/2"
+      ]
+    ]
+  },
+  {
+    "a": 1,
+    "passive_determinant_before_translation": "-5*(2*CQ*H*V + 2*H**2*SQ - SQ)/2",
+    "translation_equations": [
+      "(2*C1 + 10*CQ*H + 4*CQ - 10*SQ*V + 5*SQ + 4)/2",
+      "0",
+      "(10*CQ*V - 5*CQ + 10*H*SQ + 2*S1 + 4*SQ + 5)/2"
+    ],
+    "active_3x3_minors": {
+      "(0, 1, 2)": "(5*C1*CQ - 4*C1*SQ + 4*CQ*S1 + 5*S1*SQ)/2",
+      "(0, 1, 3)": "(10*C1*CQ*V - 5*C1*CQ + 10*C1*H*SQ + 4*C1*SQ - 10*CQ*H*S1 - 4*CQ*S1 + 10*S1*SQ*V - 5*S1*SQ)/2",
+      "(0, 2, 3)": "5*(2*C1*CQ*V + 2*C1*H*SQ - 2*CQ*H*S1 + 5*H + 2*S1*SQ*V + 4*V)/2",
+      "(1, 2, 3)": "5*(5*H + 4*V)/2"
+    },
+    "passive_block": [
+      [
+        "SQ",
+        "CQ*V + H*SQ",
+        "0"
+      ],
+      [
+        "-CQ",
+        "-CQ*H + SQ*V",
+        "1"
+      ],
+      [
+        "C1*CQ + 2*CQ + S1*SQ + 2",
+        "(2*C1*CQ*H - 2*C1*SQ*V + 4*CQ*H + 2*CQ*S1*V + 2*H*S1*SQ + 4*H - 4*SQ*V - 5*V + 5)/2",
+        "-(2*C1 + 10*CQ*H + 4*CQ - 10*SQ*V + 5*SQ + 4)/2"
+      ]
+    ]
+  }
+]

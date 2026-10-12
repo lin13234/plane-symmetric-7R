@@ -1,0 +1,206 @@
+[
+  {
+    "a": 0,
+    "epsilon": -1,
+    "t": 0.0,
+    "q": [
+      2.6236673967106414,
+      2.6236673967106414,
+      0.0,
+      0.0,
+      3.141592653589793,
+      5.247334793421283,
+      3.141592653589793
+    ],
+    "normalized_closure_frobenius": 5.766245868167173e-16,
+    "l40mm_closure_frobenius": 1.7860012819918684e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 0,
+    "epsilon": -1,
+    "t": 0.4,
+    "q": [
+      2.6236673967106414,
+      2.6236673967106414,
+      0.0,
+      0.4,
+      3.141592653589793,
+      4.8473347934212825,
+      3.141592653589793
+    ],
+    "normalized_closure_frobenius": 1.4341880781187662e-15,
+    "l40mm_closure_frobenius": 4.4647680708532896e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 0,
+    "epsilon": -1,
+    "t": 1.5707963267948966,
+    "q": [
+      2.6236673967106414,
+      2.6236673967106414,
+      0.0,
+      1.5707963267948966,
+      3.141592653589793,
+      3.6765384666263863,
+      3.141592653589793
+    ],
+    "normalized_closure_frobenius": 7.185975735421303e-16,
+    "l40mm_closure_frobenius": 1.9004668915686975e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 0,
+    "epsilon": 1,
+    "t": 0.0,
+    "q": [
+      -0.8315566275679535,
+      -0.8315566275679535,
+      0.0,
+      0.0,
+      3.141592653589793,
+      -1.663113255135907,
+      3.141592653589793
+    ],
+    "normalized_closure_frobenius": 5.663678428030831e-16,
+    "l40mm_closure_frobenius": 1.1544239457084829e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 0,
+    "epsilon": 1,
+    "t": 0.4,
+    "q": [
+      -0.8315566275679535,
+      -0.8315566275679535,
+      0.0,
+      0.4,
+      3.141592653589793,
+      -2.063113255135907,
+      3.141592653589793
+    ],
+    "normalized_closure_frobenius": 9.09783615024457e-16,
+    "l40mm_closure_frobenius": 2.775138510057958e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 0,
+    "epsilon": 1,
+    "t": 1.5707963267948966,
+    "q": [
+      -0.8315566275679535,
+      -0.8315566275679535,
+      0.0,
+      1.5707963267948966,
+      3.141592653589793,
+      -3.2339095819308037,
+      3.141592653589793
+    ],
+    "normalized_closure_frobenius": 1.1452747374589257e-15,
+    "l40mm_closure_frobenius": 3.5765504270793454e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 1,
+    "epsilon": -1,
+    "t": 0.0,
+    "q": [
+      2.6236673967106414,
+      2.6236673967106414,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      -5.247334793421283,
+      0.0
+    ],
+    "normalized_closure_frobenius": 1.340770271087137e-15,
+    "l40mm_closure_frobenius": 5.0902976807806116e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 1,
+    "epsilon": -1,
+    "t": 0.4,
+    "q": [
+      2.6236673967106414,
+      2.6236673967106414,
+      3.141592653589793,
+      0.4,
+      3.141592653589793,
+      -5.647334793421283,
+      0.0
+    ],
+    "normalized_closure_frobenius": 2.290153998778318e-15,
+    "l40mm_closure_frobenius": 8.352835859478269e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 1,
+    "epsilon": -1,
+    "t": 1.5707963267948966,
+    "q": [
+      2.6236673967106414,
+      2.6236673967106414,
+      3.141592653589793,
+      1.5707963267948966,
+      3.141592653589793,
+      -6.818131120216179,
+      0.0
+    ],
+    "normalized_closure_frobenius": 6.347248100209944e-16,
+    "l40mm_closure_frobenius": 2.3358135418456646e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 1,
+    "epsilon": 1,
+    "t": 0.0,
+    "q": [
+      -0.8315566275679535,
+      -0.8315566275679535,
+      3.141592653589793,
+      0.0,
+      3.141592653589793,
+      1.663113255135907,
+      0.0
+    ],
+    "normalized_closure_frobenius": 1.197105967383661e-15,
+    "l40mm_closure_frobenius": 4.288076105179792e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 1,
+    "epsilon": 1,
+    "t": 0.4,
+    "q": [
+      -0.8315566275679535,
+      -0.8315566275679535,
+      3.141592653589793,
+      0.4,
+      3.141592653589793,
+      1.2631132551359068,
+      0.0
+    ],
+    "normalized_closure_frobenius": 1.4808166585266162e-15,
+    "l40mm_closure_frobenius": 5.241852592576727e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  },
+  {
+    "a": 1,
+    "epsilon": 1,
+    "t": 1.5707963267948966,
+    "q": [
+      -0.8315566275679535,
+      -0.8315566275679535,
+      3.141592653589793,
+      1.5707963267948966,
+      3.141592653589793,
+      0.09231692834101035,
+      0.0
+    ],
+    "normalized_closure_frobenius": 7.862536088141286e-16,
+    "l40mm_closure_frobenius": 2.845498104479244e-14,
+    "exact_status": "full loop identity and rank6 certified for every t"
+  }
+]

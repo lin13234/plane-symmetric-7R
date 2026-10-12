@@ -1,0 +1,119 @@
+{
+  "model": "current-J1-J7; l=1; no coordination imposed",
+  "coordinates": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "equations": [
+    {
+      "id": "loop_11",
+      "polynomial": "C1*C2*C3*C4*C5*C6*C7 + C1*C2*C3*C4*S5*S7 + C1*C2*C3*C7*S4*S6 + C1*C2*C5*S3*S7 - C1*C2*C6*C7*S3*S5 - C1*C4*C7*S2*S6 + C1*C5*C6*C7*S2*S4 + C1*S2*S4*S5*S7 - C2*C4*C7*S1*S6 + C2*C5*C6*C7*S1*S4 + C2*S1*S4*S5*S7 - C3*C4*C5*C6*C7*S1*S2 - C3*C4*S1*S2*S5*S7 - C3*C7*S1*S2*S4*S6 - C5*S1*S2*S3*S7 + C6*C7*S1*S2*S3*S5 - 1",
+      "terms": 17
+    },
+    {
+      "id": "loop_12",
+      "polynomial": "-C1*C2*C3*C4*C5*C6*S7 + C1*C2*C3*C4*C7*S5 - C1*C2*C3*S4*S6*S7 + C1*C2*C5*C7*S3 + C1*C2*C6*S3*S5*S7 + C1*C4*S2*S6*S7 - C1*C5*C6*S2*S4*S7 + C1*C7*S2*S4*S5 + C2*C4*S1*S6*S7 - C2*C5*C6*S1*S4*S7 + C2*C7*S1*S4*S5 + C3*C4*C5*C6*S1*S2*S7 - C3*C4*C7*S1*S2*S5 + C3*S1*S2*S4*S6*S7 - C5*C7*S1*S2*S3 - C6*S1*S2*S3*S5*S7",
+      "terms": 16
+    },
+    {
+      "id": "loop_13",
+      "polynomial": "-C1*C2*C3*C4*C5*S6 + C1*C2*C3*C6*S4 + C1*C2*S3*S5*S6 - C1*C4*C6*S2 - C1*C5*S2*S4*S6 - C2*C4*C6*S1 - C2*C5*S1*S4*S6 + C3*C4*C5*S1*S2*S6 - C3*C6*S1*S2*S4 - S1*S2*S3*S5*S6",
+      "terms": 10
+    },
+    {
+      "id": "loop_14",
+      "polynomial": "-5*C1*C2*C3*C4*C5*S6/2 - 5*C1*C2*C3*C4*C5/2 - 5*C1*C2*C3*C4/2 + 5*C1*C2*C3*C6*S4/2 + 5*C1*C2*S3*S5*S6/2 + 5*C1*C2*S3*S5/2 + 2*C1*C2 - 5*C1*C4*C6*S2/2 - 5*C1*C5*S2*S4*S6/2 - 5*C1*C5*S2*S4/2 - 5*C1*S2*S4/2 + 5*C1*S2/2 + C1 - 5*C2*C4*C6*S1/2 - 5*C2*C5*S1*S4*S6/2 - 5*C2*C5*S1*S4/2 - 5*C2*S1*S4/2 + 5*C2*S1/2 + 5*C3*C4*C5*S1*S2*S6/2 + 5*C3*C4*C5*S1*S2/2 + 5*C3*C4*S1*S2/2 - 5*C3*C6*S1*S2*S4/2 - 5*S1*S2*S3*S5*S6/2 - 5*S1*S2*S3*S5/2 - 2*S1*S2 + 2",
+      "terms": 26
+    },
+    {
+      "id": "loop_21",
+      "polynomial": "C3*C5*S7 - C3*C6*C7*S5 - C4*C5*C6*C7*S3 - C4*S3*S5*S7 - C7*S3*S4*S6",
+      "terms": 5
+    },
+    {
+      "id": "loop_22",
+      "polynomial": "C3*C5*C7 + C3*C6*S5*S7 + C4*C5*C6*S3*S7 - C4*C7*S3*S5 + S3*S4*S6*S7 - 1",
+      "terms": 6
+    },
+    {
+      "id": "loop_23",
+      "polynomial": "C3*S5*S6 + C4*C5*S3*S6 - C6*S3*S4",
+      "terms": 3
+    },
+    {
+      "id": "loop_24",
+      "polynomial": "5*C3*S5*S6/2 + 5*C3*S5/2 + 5*C4*C5*S3*S6/2 + 5*C4*C5*S3/2 + 5*C4*S3/2 - 5*C6*S3*S4/2",
+      "terms": 6
+    },
+    {
+      "id": "loop_31",
+      "polynomial": "C1*C2*C4*C7*S6 - C1*C2*C5*C6*C7*S4 - C1*C2*S4*S5*S7 + C1*C3*C4*C5*C6*C7*S2 + C1*C3*C4*S2*S5*S7 + C1*C3*C7*S2*S4*S6 + C1*C5*S2*S3*S7 - C1*C6*C7*S2*S3*S5 + C2*C3*C4*C5*C6*C7*S1 + C2*C3*C4*S1*S5*S7 + C2*C3*C7*S1*S4*S6 + C2*C5*S1*S3*S7 - C2*C6*C7*S1*S3*S5 - C4*C7*S1*S2*S6 + C5*C6*C7*S1*S2*S4 + S1*S2*S4*S5*S7",
+      "terms": 16
+    },
+    {
+      "id": "loop_32",
+      "polynomial": "-C1*C2*C4*S6*S7 + C1*C2*C5*C6*S4*S7 - C1*C2*C7*S4*S5 - C1*C3*C4*C5*C6*S2*S7 + C1*C3*C4*C7*S2*S5 - C1*C3*S2*S4*S6*S7 + C1*C5*C7*S2*S3 + C1*C6*S2*S3*S5*S7 - C2*C3*C4*C5*C6*S1*S7 + C2*C3*C4*C7*S1*S5 - C2*C3*S1*S4*S6*S7 + C2*C5*C7*S1*S3 + C2*C6*S1*S3*S5*S7 + C4*S1*S2*S6*S7 - C5*C6*S1*S2*S4*S7 + C7*S1*S2*S4*S5",
+      "terms": 16
+    },
+    {
+      "id": "loop_33",
+      "polynomial": "C1*C2*C4*C6 + C1*C2*C5*S4*S6 - C1*C3*C4*C5*S2*S6 + C1*C3*C6*S2*S4 + C1*S2*S3*S5*S6 - C2*C3*C4*C5*S1*S6 + C2*C3*C6*S1*S4 + C2*S1*S3*S5*S6 - C4*C6*S1*S2 - C5*S1*S2*S4*S6 - 1",
+      "terms": 11
+    },
+    {
+      "id": "loop_34",
+      "polynomial": "5*C1*C2*C4*C6/2 + 5*C1*C2*C5*S4*S6/2 + 5*C1*C2*C5*S4/2 + 5*C1*C2*S4/2 - 5*C1*C2/2 - 5*C1*C3*C4*C5*S2*S6/2 - 5*C1*C3*C4*C5*S2/2 - 5*C1*C3*C4*S2/2 + 5*C1*C3*C6*S2*S4/2 + 5*C1*S2*S3*S5*S6/2 + 5*C1*S2*S3*S5/2 + 2*C1*S2 - 5*C2*C3*C4*C5*S1*S6/2 - 5*C2*C3*C4*C5*S1/2 - 5*C2*C3*C4*S1/2 + 5*C2*C3*C6*S1*S4/2 + 5*C2*S1*S3*S5*S6/2 + 5*C2*S1*S3*S5/2 + 2*C2*S1 - 5*C4*C6*S1*S2/2 - 5*C5*S1*S2*S4*S6/2 - 5*C5*S1*S2*S4/2 - 5*S1*S2*S4/2 + 5*S1*S2/2 + S1",
+      "terms": 25
+    },
+    {
+      "id": "circle_1",
+      "polynomial": "C1**2 + S1**2 - 1",
+      "terms": 3
+    },
+    {
+      "id": "circle_2",
+      "polynomial": "C2**2 + S2**2 - 1",
+      "terms": 3
+    },
+    {
+      "id": "circle_3",
+      "polynomial": "C3**2 + S3**2 - 1",
+      "terms": 3
+    },
+    {
+      "id": "circle_4",
+      "polynomial": "C4**2 + S4**2 - 1",
+      "terms": 3
+    },
+    {
+      "id": "circle_5",
+      "polynomial": "C5**2 + S5**2 - 1",
+      "terms": 3
+    },
+    {
+      "id": "circle_6",
+      "polynomial": "C6**2 + S6**2 - 1",
+      "terms": 3
+    },
+    {
+      "id": "circle_7",
+      "polynomial": "C7**2 + S7**2 - 1",
+      "terms": 3
+    }
+  ],
+  "total_equations": 19,
+  "coverage": "all real torus angles, including individual pi angles",
+  "coordination_imposed": false
+}

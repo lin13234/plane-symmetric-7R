@@ -1,0 +1,185 @@
+{
+ "actuated_joints": "J1,J2,J3,J7",
+ "interfaces": {
+  "G1": {
+   "closure_singular_values_smallest3": [
+    1.3180848055936958,
+    4.65322285344162e-16,
+    1.3926755255256347e-16
+   ],
+   "actuated_projection_singular_values": [
+    0.9805806756380384,
+    0.5773502695045853
+   ],
+   "actuated_projection_rank": 2,
+   "passive_projection_singular_values": [
+    0.816496580705016,
+    0.19611613540259304
+   ]
+  },
+  "H1": {
+   "closure_singular_values_smallest3": [
+    1.3180848034508224,
+    1.1024893420712196e-15,
+    1.6657342883184334e-16
+   ],
+   "actuated_projection_singular_values": [
+    0.9805806755234334,
+    0.5773502706741953
+   ],
+   "actuated_projection_rank": 2,
+   "passive_projection_singular_values": [
+    0.8164965798779769,
+    0.19611613597561725
+   ]
+  },
+  "G2": {
+   "closure_singular_values_smallest3": [
+    0.7229037643174253,
+    1.733022687769707e-10,
+    2.7866029276815475e-16
+   ],
+   "actuated_projection_singular_values": [
+    0.980580675874337,
+    0.6359599309399107
+   ],
+   "actuated_projection_rank": 2,
+   "passive_projection_singular_values": [
+    0.7717220783668841,
+    0.19611613422110055
+   ]
+  },
+  "H2": {
+   "closure_singular_values_smallest3": [
+    0.7229037587954645,
+    1.584728018358252e-10,
+    1.2652524779040494e-16
+   ],
+   "actuated_projection_singular_values": [
+    0.980580675622292,
+    0.6359599320908292
+   ],
+   "actuated_projection_rank": 2,
+   "passive_projection_singular_values": [
+    0.7717220774184366,
+    0.19611613548132514
+   ]
+  },
+  "G3": {
+   "closure_singular_values_smallest3": [
+    1.4821666045699664,
+    1.7236556844343214e-10,
+    1.0252999833573355e-15
+   ],
+   "actuated_projection_singular_values": [
+    0.9805806755827259,
+    0.9550391810565317
+   ],
+   "actuated_projection_rank": 2,
+   "passive_projection_singular_values": [
+    0.2964796159044814,
+    0.19611613567915534
+   ]
+  },
+  "H3": {
+   "closure_singular_values_smallest3": [
+    1.4821666041731456,
+    1.132486366975609e-10,
+    3.7326841946415917e-16
+   ],
+   "actuated_projection_singular_values": [
+    0.9805806757003573,
+    0.9550391813116279
+   ],
+   "actuated_projection_rank": 2,
+   "passive_projection_singular_values": [
+    0.29647961508274984,
+    0.19611613509099743
+   ]
+  },
+  "G4": {
+   "closure_singular_values_smallest3": [
+    0.795290677439754,
+    6.836954289113656e-10,
+    4.712662917667236e-16
+   ],
+   "actuated_projection_singular_values": [
+    0.9805806759321919,
+    0.9145755883494093
+   ],
+   "actuated_projection_rank": 2,
+   "passive_projection_singular_values": [
+    0.4044150011996729,
+    0.1961161339318254
+   ]
+  },
+  "H4": {
+   "closure_singular_values_smallest3": [
+    0.7952906732556274,
+    3.779355029323652e-10,
+    1.0740906669126847e-15
+   ],
+   "actuated_projection_singular_values": [
+    0.980580675707207,
+    0.9145755888039443
+   ],
+   "actuated_projection_rank": 2,
+   "passive_projection_singular_values": [
+    0.40441500017175264,
+    0.19611613505674994
+   ]
+  }
+ },
+ "regular_arcs": {
+  "P_0,+": {
+   "min_actuated_fraction": 0.9592151488209115,
+   "n_samples": 719
+  },
+  "P_pi,+": {
+   "min_actuated_fraction": 0.9592151483542763,
+   "n_samples": 719
+  },
+  "P_0,-": {
+   "min_actuated_fraction": 0.9592153925314004,
+   "n_samples": 720
+  },
+  "P_pi,-": {
+   "min_actuated_fraction": 0.9592153931489216,
+   "n_samples": 720
+  },
+  "B_S1": {
+   "min_actuated_fraction": 0.4559932852243536,
+   "n_samples": 718,
+   "last_closure_residual": 6.248747516987173e-16
+  },
+  "B_S2": {
+   "min_actuated_fraction": 0.283579492922883,
+   "n_samples": 718,
+   "last_closure_residual": 3.552713678800501e-15
+  },
+  "B_S3": {
+   "min_actuated_fraction": 0.9550392633135222,
+   "n_samples": 718,
+   "last_closure_residual": 9.221546114951142e-16
+  },
+  "B_S4": {
+   "min_actuated_fraction": 0.9145846011645176,
+   "n_samples": 718,
+   "last_closure_residual": 8.75994881429936e-16
+  }
+ },
+ "stageI_A3_closure_residuals": {
+  "confirmed_state": {
+   "n_samples": 36748,
+   "orientation_residual_rad_median": 0.0020161002034749997,
+   "orientation_residual_rad_p95": 0.0045207336090510005,
+   "position_residual_m_median": 3.2126949635000004e-07
+  },
+  "between_states_grey": {
+   "n_samples": 23246,
+   "orientation_residual_rad_median": 0.004482442017025,
+   "orientation_residual_rad_p95": 0.01034270194965,
+   "position_residual_m_median": 3.9086190651000005e-07
+  }
+ }
+}

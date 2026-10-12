@@ -1,0 +1,106 @@
+replay,gray_reason,samples,duration_s
+G1_A1_seed2026,distance threshold exceeded,1858,1.4864000000000002
+G1_A1_seed2026,dwell pending / historical mismatch,719,0.5752
+G1_A1_seed2026,interface ambiguity,627,0.5016
+G1_A1_seed42,distance threshold exceeded,779,0.6232
+G1_A1_seed42,dwell pending / historical mismatch,749,0.5992000000000001
+G1_A1_seed42,interface ambiguity,272,0.21760000000000002
+G1_A1_seed7,distance threshold exceeded,1996,1.5968
+G1_A1_seed7,dwell pending / historical mismatch,1717,1.3736000000000002
+G1_A1_seed7,interface ambiguity,129,0.1032
+G1_A2_seed2026,distance threshold exceeded,1535,1.228
+G1_A2_seed2026,dwell pending / historical mismatch,2429,1.9432
+G1_A2_seed2026,interface ambiguity,45,0.036000000000000004
+G1_A2_seed42,distance threshold exceeded,1670,1.336
+G1_A2_seed42,dwell pending / historical mismatch,2590,2.072
+G1_A2_seed42,interface ambiguity,45,0.036000000000000004
+G1_A2_seed7,distance threshold exceeded,1659,1.3272000000000002
+G1_A2_seed7,dwell pending / historical mismatch,2437,1.9496
+G1_A2_seed7,interface ambiguity,111,0.0888
+G1_A3_seed2026,distance threshold exceeded,1457,1.1656
+G1_A3_seed2026,dwell pending / historical mismatch,2480,1.984
+G1_A3_seed2026,interface ambiguity,45,0.036000000000000004
+G1_A3_seed42,distance threshold exceeded,1662,1.3296000000000001
+G1_A3_seed42,dwell pending / historical mismatch,2435,1.9480000000000002
+G1_A3_seed42,interface ambiguity,81,0.0648
+G1_A3_seed7,distance threshold exceeded,1574,1.2592
+G1_A3_seed7,dwell pending / historical mismatch,2517,2.0136000000000003
+G1_A3_seed7,interface ambiguity,55,0.044000000000000004
+G1_A4_seed2026,distance threshold exceeded,2515,2.012
+G1_A4_seed2026,dwell pending / historical mismatch,1493,1.1944000000000001
+G1_A4_seed2026,interface ambiguity,128,0.1024
+G1_A4_seed42,distance threshold exceeded,2567,2.0536000000000003
+G1_A4_seed42,dwell pending / historical mismatch,1473,1.1784000000000001
+G1_A4_seed42,interface ambiguity,153,0.12240000000000001
+G1_A4_seed7,distance threshold exceeded,2448,1.9584000000000001
+G1_A4_seed7,dwell pending / historical mismatch,754,0.6032000000000001
+G1_A4_seed7,interface ambiguity,83,0.0664
+G1_A5_seed2026,distance threshold exceeded,1448,1.1584
+G1_A5_seed2026,dwell pending / historical mismatch,2363,1.8904
+G1_A5_seed2026,interface ambiguity,61,0.0488
+G1_A5_seed42,distance threshold exceeded,1728,1.3824
+G1_A5_seed42,dwell pending / historical mismatch,2375,1.9000000000000001
+G1_A5_seed42,interface ambiguity,57,0.0456
+G1_A5_seed7,distance threshold exceeded,3463,2.7704
+G1_A5_seed7,dwell pending / historical mismatch,6195,4.956
+G1_A5_seed7,interface ambiguity,341,0.2728
+G1_A6_seed2026,dwell pending / historical mismatch,719,0.5752
+G1_A6_seed2026,interface ambiguity,373,0.2984
+G1_A6_seed42,dwell pending / historical mismatch,719,0.5752
+G1_A6_seed42,interface ambiguity,392,0.3136
+G1_A6_seed7,distance threshold exceeded,98,0.0784
+G1_A6_seed7,dwell pending / historical mismatch,719,0.5752
+G1_A6_seed7,interface ambiguity,340,0.272
+G3_A1_seed2026,distance threshold exceeded,1045,0.8360000000000001
+G3_A1_seed2026,dwell pending / historical mismatch,1500,1.2
+G3_A1_seed2026,interface ambiguity,508,0.40640000000000004
+G3_A1_seed42,dwell pending / historical mismatch,719,0.5752
+G3_A1_seed42,interface ambiguity,701,0.5608000000000001
+G3_A1_seed7,distance threshold exceeded,1858,1.4864000000000002
+G3_A1_seed7,dwell pending / historical mismatch,3047,2.4376
+G3_A1_seed7,interface ambiguity,231,0.18480000000000002
+G3_A2_seed2026,closure rejection,44,0.0352
+G3_A2_seed2026,distance threshold exceeded,1338,1.0704
+G3_A2_seed2026,dwell pending / historical mismatch,847,0.6776
+G3_A2_seed2026,interface ambiguity,422,0.3376
+G3_A2_seed42,distance threshold exceeded,1088,0.8704000000000001
+G3_A2_seed42,dwell pending / historical mismatch,2496,1.9968000000000001
+G3_A2_seed42,interface ambiguity,88,0.0704
+G3_A2_seed7,distance threshold exceeded,1348,1.0784
+G3_A2_seed7,dwell pending / historical mismatch,2295,1.836
+G3_A2_seed7,interface ambiguity,101,0.08080000000000001
+G3_A3_seed2026,distance threshold exceeded,1102,0.8816
+G3_A3_seed2026,dwell pending / historical mismatch,2293,1.8344
+G3_A3_seed2026,interface ambiguity,102,0.0816
+G3_A3_seed42,distance threshold exceeded,1186,0.9488000000000001
+G3_A3_seed42,dwell pending / historical mismatch,2396,1.9168
+G3_A3_seed42,interface ambiguity,103,0.0824
+G3_A3_seed7,distance threshold exceeded,1254,1.0032
+G3_A3_seed7,dwell pending / historical mismatch,2407,1.9256000000000002
+G3_A3_seed7,interface ambiguity,97,0.0776
+G3_A4_seed2026,distance threshold exceeded,1181,0.9448000000000001
+G3_A4_seed2026,dwell pending / historical mismatch,884,0.7072
+G3_A4_seed2026,interface ambiguity,129,0.1032
+G3_A4_seed42,distance threshold exceeded,1392,1.1136000000000001
+G3_A4_seed42,dwell pending / historical mismatch,2507,2.0056000000000003
+G3_A4_seed42,interface ambiguity,117,0.0936
+G3_A4_seed7,distance threshold exceeded,1026,0.8208000000000001
+G3_A4_seed7,dwell pending / historical mismatch,2536,2.0288
+G3_A4_seed7,interface ambiguity,111,0.0888
+G3_A5_seed2026,distance threshold exceeded,1669,1.3352000000000002
+G3_A5_seed2026,dwell pending / historical mismatch,2484,1.9872
+G3_A5_seed2026,interface ambiguity,132,0.1056
+G3_A5_seed42,distance threshold exceeded,1561,1.2488000000000001
+G3_A5_seed42,dwell pending / historical mismatch,2321,1.8568
+G3_A5_seed42,interface ambiguity,131,0.1048
+G3_A5_seed7,distance threshold exceeded,1543,1.2344000000000002
+G3_A5_seed7,dwell pending / historical mismatch,2307,1.8456000000000001
+G3_A5_seed7,interface ambiguity,126,0.1008
+G3_A6_seed2026,distance threshold exceeded,181,0.1448
+G3_A6_seed2026,dwell pending / historical mismatch,858,0.6864
+G3_A6_seed2026,interface ambiguity,629,0.5032
+G3_A6_seed42,distance threshold exceeded,350,0.28
+G3_A6_seed42,dwell pending / historical mismatch,719,0.5752
+G3_A6_seed42,interface ambiguity,575,0.46
+G3_A6_seed7,dwell pending / historical mismatch,719,0.5752
+G3_A6_seed7,interface ambiguity,652,0.5216000000000001

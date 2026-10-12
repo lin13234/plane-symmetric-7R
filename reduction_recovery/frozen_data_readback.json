@@ -1,0 +1,50 @@
+[
+  {
+    "branch": "S1",
+    "rows": 721,
+    "max_saved_closure_frobenius": 2.139915718415963e-13,
+    "rank_Jc_values": [
+      5,
+      6
+    ],
+    "path": "D:\\01STUDY\\05yundongxue\\DOF\\01Kinematics\\20_section3_2_spatial_svd_current\\spatial_branch_S1_full_data.csv",
+    "sha256": "71b6bd176f4ceff1a2674d5fbe6eee35f68468012d7215e3122c7a764a2b123e",
+    "action": "read saved CSV fields only; no model recomputation"
+  },
+  {
+    "branch": "S2",
+    "rows": 721,
+    "max_saved_closure_frobenius": 3.922154454612175e-13,
+    "rank_Jc_values": [
+      5,
+      6
+    ],
+    "path": "D:\\01STUDY\\05yundongxue\\DOF\\01Kinematics\\20_section3_2_spatial_svd_current\\spatial_branch_S2_full_data.csv",
+    "sha256": "840224ddf62c070459100ba1894d38e74ac0f4f2b4f577b3fd6f2857fc9bf66d",
+    "action": "read saved CSV fields only; no model recomputation"
+  },
+  {
+    "branch": "S3",
+    "rows": 721,
+    "max_saved_closure_frobenius": 1.1031060317957953e-13,
+    "rank_Jc_values": [
+      5,
+      6
+    ],
+    "path": "D:\\01STUDY\\05yundongxue\\DOF\\01Kinematics\\20_section3_2_spatial_svd_current\\2026-09-17_NegativeRoot_Branches_S3_S4\\spatial_branch_S3_full_data.csv",
+    "sha256": "626833b13ad1df36ddfc24112a293e246b4f717eab8ff2363b0963031d67d44c",
+    "action": "read saved CSV fields only; no model recomputation"
+  },
+  {
+    "branch": "S4",
+    "rows": 721,
+    "max_saved_closure_frobenius": 1.2024792741953735e-13,
+    "rank_Jc_values": [
+      5,
+      6
+    ],
+    "path": "D:\\01STUDY\\05yundongxue\\DOF\\01Kinematics\\20_section3_2_spatial_svd_current\\2026-09-17_NegativeRoot_Branches_S3_S4\\spatial_branch_S4_full_data.csv",
+    "sha256": "da8225aec674cddb95eaee9521ab9e5acc7c4235c12f3cce2c737de47503a001",
+    "action": "read saved CSV fields only; no model recomputation"
+  }
+]

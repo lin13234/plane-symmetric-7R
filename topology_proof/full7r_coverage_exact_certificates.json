@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "original_position_orientation_combination": true,
+    "original_sum_angle_factor": true,
+    "original_complex_translation_x": true,
+    "original_complex_translation_z": true,
+    "M_norm_identity": true,
+    "K_unit_on_g1": true,
+    "complex_symmetry_real": true,
+    "complex_symmetry_imag": true,
+    "orientation_third_column_13_eta-1": true,
+    "orientation_third_column_33_eta-1": true,
+    "orientation_third_column_13_eta1": true,
+    "orientation_third_column_33_eta1": true,
+    "anti_sum_branch_positive_gap_identity": true,
+    "anti_sum_gap_square_completion": true,
+    "u_pi_eta_plus_bridge_squared_16": true,
+    "u_pi_eta_minus_bridge_squared_25": true,
+    "q7_original_rotation_21_eta-1": true,
+    "q7_original_rotation_22_eta-1": true,
+    "q7_normal_A_eta-1": true,
+    "q7_normal_B_eta-1": true,
+    "q7_exceptional_A_eta-1": true,
+    "q7_exceptional_B_eta-1": true,
+    "q7_original_rotation_21_eta1": true,
+    "q7_original_rotation_22_eta1": true,
+    "q7_normal_A_eta1": true,
+    "q7_normal_B_eta1": true,
+    "q7_exceptional_A_eta1": true,
+    "q7_exceptional_B_eta1": true,
+    "exceptional_triangle_strict_gap": true,
+    "quartic_discriminant_positive_bound": true
+  },
+  "passed": true,
+  "check_count": 30,
+  "anti_sum_gap_lower_bound": "24*(h-5*c*t/6)^2+(70/3)*c^2 > 0 for D>0",
+  "u_pi_bridge_moduli_squared": {
+    "eta_plus": 16,
+    "eta_minus": 25
+  },
+  "source": "unrestricted original polynomials; no coordination at input"
+}

@@ -1,0 +1,38 @@
+{
+  "n_harmonics": 5,
+  "val_fraction": 0.15,
+  "references": {
+    "planar_reference_B_P": {
+      "branch": "B_P",
+      "file": "E:\\02_mjlab\\publication_2026_09\\fourier\\planar_reference_B_P.json",
+      "file_sha256": "f622f1bca76a3174ec4b8cc6b171e94672a10f73c773e82571f7b72732a8d267",
+      "source_csv": "E:\\02_mjlab\\publication_2026_09\\01_branch_tables\\branch_table_B_P.csv",
+      "source_sha256": "9ce0ef83c96d32e9b47b5c2e9af36e6e23ca7a9fe5a5859e9879af8acd7ab62c",
+      "val_rmse_rad": {
+        "J1": 0.0053365446538283364,
+        "J2": 5.008278654285502e-15,
+        "J3": 0.0,
+        "J4": 0.0035371346365494234,
+        "J5": 0.0,
+        "J6": 0.001845518665252319,
+        "J7": 0.0
+      }
+    },
+    "spatial_reference_B_S1": {
+      "branch": "B_S1",
+      "file": "E:\\02_mjlab\\publication_2026_09\\fourier\\spatial_reference_B_S1.json",
+      "file_sha256": "b2aa21282acf099d8f96c9dc760d9b507d2a0ac0d65575e9036d92e08e678326",
+      "source_csv": "E:\\02_mjlab\\publication_2026_09\\01_branch_tables\\branch_table_B_S1.csv",
+      "source_sha256": "9f3b427016f0482193741a38abb1b41a8dcb0076c5e84387d5b733b8d915d7f2",
+      "val_rmse_rad": {
+        "J1": 0.008078684067207222,
+        "J2": 0.008078684067208474,
+        "J3": 4.929544345291289e-15,
+        "J4": 0.00213730928228838,
+        "J5": 0.00016820661154157035,
+        "J6": 0.0021373092822880558,
+        "J7": 5.508723367662825e-15
+      }
+    }
+  }
+}

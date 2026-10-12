@@ -1,0 +1,23 @@
+{
+  "scope": "newly restored polynomial identities only; no branch recomputation",
+  "checks": {
+    "cz_E11": true,
+    "cz_E12": true,
+    "cz_E21": true,
+    "cz_E22": true,
+    "u_factor_g1": true,
+    "u_factor_h4": true,
+    "N2_minus_D2": true,
+    "quartic_bridge_Q_equals_minus_P": true,
+    "X_chart_factor_four": true,
+    "saved_Y_recovery_modulo_quartic": true,
+    "reciprocal_quartic": true,
+    "leading_coefficient": true,
+    "c_zero_double_roots": true,
+    "c_one_gate_factors": true,
+    "c_minus_one_gate_factors": true
+  },
+  "passed": true,
+  "number_of_checks": 15,
+  "sympy_version": "1.14.0"
+}

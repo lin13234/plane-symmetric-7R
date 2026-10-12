@@ -1,0 +1,98 @@
+[
+  {
+    "sin_x": -1,
+    "sin_z": -1,
+    "epsilon": -1,
+    "cos_y": "-5*sqrt(115)/58 - 1/29",
+    "sin_y": "-5/58 + sqrt(115)/29",
+    "cos_u": "-1197/1682 - 10*sqrt(115)/841",
+    "sin_u": "570/841 - 21*sqrt(115)/1682",
+    "complete_loop_identity": true,
+    "passive_6x6_screw_minor": "-25*(-460 + 97*sqrt(115))/6728",
+    "rank6": true
+  },
+  {
+    "sin_x": -1,
+    "sin_z": -1,
+    "epsilon": 1,
+    "cos_y": "-1/29 + 5*sqrt(115)/58",
+    "sin_y": "-sqrt(115)/29 - 5/58",
+    "cos_u": "-1197/1682 + 10*sqrt(115)/841",
+    "sin_u": "21*sqrt(115)/1682 + 570/841",
+    "complete_loop_identity": true,
+    "passive_6x6_screw_minor": "25*(460 + 97*sqrt(115))/6728",
+    "rank6": true
+  },
+  {
+    "sin_x": -1,
+    "sin_z": 1,
+    "epsilon": -1,
+    "cos_y": "-1/4",
+    "sin_y": "-sqrt(15)/4",
+    "cos_u": "7/8",
+    "sin_u": "sqrt(15)/8",
+    "complete_loop_identity": true,
+    "passive_6x6_screw_minor": "75*sqrt(15)/32",
+    "rank6": true
+  },
+  {
+    "sin_x": -1,
+    "sin_z": 1,
+    "epsilon": 1,
+    "cos_y": "-1/4",
+    "sin_y": "sqrt(15)/4",
+    "cos_u": "7/8",
+    "sin_u": "-sqrt(15)/8",
+    "complete_loop_identity": true,
+    "passive_6x6_screw_minor": "-75*sqrt(15)/32",
+    "rank6": true
+  },
+  {
+    "sin_x": 1,
+    "sin_z": -1,
+    "epsilon": -1,
+    "cos_y": "-5*sqrt(115)/58 - 1/29",
+    "sin_y": "-5/58 + sqrt(115)/29",
+    "cos_u": "-1197/1682 - 10*sqrt(115)/841",
+    "sin_u": "-570/841 + 21*sqrt(115)/1682",
+    "complete_loop_identity": true,
+    "passive_6x6_screw_minor": "25*(-460 + 97*sqrt(115))/6728",
+    "rank6": true
+  },
+  {
+    "sin_x": 1,
+    "sin_z": -1,
+    "epsilon": 1,
+    "cos_y": "-1/29 + 5*sqrt(115)/58",
+    "sin_y": "-sqrt(115)/29 - 5/58",
+    "cos_u": "-1197/1682 + 10*sqrt(115)/841",
+    "sin_u": "-570/841 - 21*sqrt(115)/1682",
+    "complete_loop_identity": true,
+    "passive_6x6_screw_minor": "-25*(460 + 97*sqrt(115))/6728",
+    "rank6": true
+  },
+  {
+    "sin_x": 1,
+    "sin_z": 1,
+    "epsilon": -1,
+    "cos_y": "-1/4",
+    "sin_y": "-sqrt(15)/4",
+    "cos_u": "7/8",
+    "sin_u": "-sqrt(15)/8",
+    "complete_loop_identity": true,
+    "passive_6x6_screw_minor": "-75*sqrt(15)/32",
+    "rank6": true
+  },
+  {
+    "sin_x": 1,
+    "sin_z": 1,
+    "epsilon": 1,
+    "cos_y": "-1/4",
+    "sin_y": "sqrt(15)/4",
+    "cos_u": "7/8",
+    "sin_u": "sqrt(15)/8",
+    "complete_loop_identity": true,
+    "passive_6x6_screw_minor": "75*sqrt(15)/32",
+    "rank6": true
+  }
+]

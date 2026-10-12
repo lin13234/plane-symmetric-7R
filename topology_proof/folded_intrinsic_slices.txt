@@ -1,0 +1,17 @@
+J3 dot J5 = cos(q4)
+J5 dot J7 = -cos(q6)
+q4=0pi q5=pi q6=0pi
+Matrix([[-cos(q1 + q2)*cos(q3 - q7), -sin(q3 - q7)*cos(q1 + q2), -sin(q1 + q2), cos(q1) + 2*cos(q1 + q2) + 2], [sin(q3 - q7), -cos(q3 - q7), 0, 0], [-sin(q1 + q2)*cos(q3 - q7), -sin(q1 + q2)*sin(q3 - q7), cos(q1 + q2), sin(q1) + 2*sin(q1 + q2)], [0, 0, 0, 1]])
+J3/J7共线矩=Matrix([[0], [0], [0]])
+
+q4=0pi q5=pi q6=1pi
+Matrix([[cos(q1 + q2)*cos(q3 + q7), -sin(q3 + q7)*cos(q1 + q2), sin(q1 + q2), 5*sin(q1 + q2) + cos(q1) + 2*cos(q1 + q2) + 2], [-sin(q3 + q7), -cos(q3 + q7), 0, 0], [sin(q1 + q2)*cos(q3 + q7), -sin(q1 + q2)*sin(q3 + q7), -cos(q1 + q2), sin(q1) + 2*sin(q1 + q2) - 5*cos(q1 + q2)], [0, 0, 0, 1]])
+J3/J7共线矩=Matrix([[0], [0], [0]])
+
+q4=1pi q5=pi q6=0pi
+Matrix([[cos(q1 + q2)*cos(q3 + q7), -sin(q3 + q7)*cos(q1 + q2), sin(q1 + q2), 5*sin(q1 + q2) + cos(q1) + 2*cos(q1 + q2) + 2], [-sin(q3 + q7), -cos(q3 + q7), 0, 0], [sin(q1 + q2)*cos(q3 + q7), -sin(q1 + q2)*sin(q3 + q7), -cos(q1 + q2), sin(q1) + 2*sin(q1 + q2) - 5*cos(q1 + q2)], [0, 0, 0, 1]])
+J3/J7共线矩=Matrix([[0], [0], [0]])
+
+q4=1pi q5=pi q6=1pi
+Matrix([[-cos(q1 + q2)*cos(q3 - q7), -sin(q3 - q7)*cos(q1 + q2), -sin(q1 + q2), cos(q1) + 2*cos(q1 + q2) + 2], [sin(q3 - q7), -cos(q3 - q7), 0, 0], [-sin(q1 + q2)*cos(q3 - q7), -sin(q1 + q2)*sin(q3 - q7), cos(q1 + q2), sin(q1) + 2*sin(q1 + q2)], [0, 0, 0, 1]])
+J3/J7共线矩=Matrix([[0], [0], [0]])

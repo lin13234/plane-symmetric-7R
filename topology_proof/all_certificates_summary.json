@@ -1,0 +1,88 @@
+{
+  "all_passed": true,
+  "python": "3.13.9",
+  "sympy": "1.14.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "results": [
+    {
+      "script": "certify_coverage_identities.py",
+      "scope": "S5-S6 global coverage identities",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 0.5,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_quartic_discriminant.py",
+      "scope": "S6-S7 quartic, Cramer identity and discriminant from MDH parameters",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 0.5,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_s0_rotation_components.py",
+      "scope": "S5 sin q3 = 0 rotation components for general q7",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 0.4,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_folded_planar_cycles.py",
+      "scope": "S4.3 folded circles: closure and rank",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 1.3,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_conventional_planar_rank.py",
+      "scope": "S9 planar-cycle rank census",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 0.7,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_spatial_regular_rank.py",
+      "scope": "S9 spatial-cycle rank census",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 1.6,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_exceptional_spatial_points.py",
+      "scope": "S7 exceptional atlas points",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 2.7,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_spatial_sheet_gluing.py",
+      "scope": "S8 sheet gluing leading coefficients and Sturm counts",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 0.4,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_gateway_rank.py",
+      "scope": "S9.1 interface closure and rank five",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 1.7,
+      "stderr_tail": ""
+    },
+    {
+      "script": "certify_interface_transversality.py",
+      "scope": "S11 Lemma: interface block structure, kernel and transversality",
+      "returncode": 0,
+      "passed": true,
+      "seconds": 1.9,
+      "stderr_tail": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+其他活动组：q4=0pi,q6=0pi
+Matrix([[cos(q1 + q2)*cos(q3 + q5 - q7), sin(q3 + q5 - q7)*cos(q1 + q2), -sin(q1 + q2), cos(q1) - 5*cos(q3)*cos(q1 + q2)/2 - 5*cos(q1 + q2)*cos(q3 + q5)/2 + 2*cos(q1 + q2) + 2], [-sin(q3 + q5 - q7), cos(q3 + q5 - q7), 0, 5*sin(q3)/2 + 5*sin(q3 + q5)/2], [sin(q1 + q2)*cos(q3 + q5 - q7), sin(q1 + q2)*sin(q3 + q5 - q7), cos(q1 + q2), sin(q1) - 5*sin(q1 + q2)*cos(q3)/2 - 5*sin(q1 + q2)*cos(q3 + q5)/2 + 2*sin(q1 + q2)], [0, 0, 0, 1]])
+
+其他活动组：q4=0pi,q6=1pi
+Matrix([[-cos(q1 + q2)*cos(q3 + q5 + q7), sin(q3 + q5 + q7)*cos(q1 + q2), sin(q1 + q2), 5*sin(q1 + q2) + cos(q1) - 5*cos(q3)*cos(q1 + q2)/2 - 5*cos(q1 + q2)*cos(q3 + q5)/2 + 2*cos(q1 + q2) + 2], [sin(q3 + q5 + q7), cos(q3 + q5 + q7), 0, 5*sin(q3)/2 + 5*sin(q3 + q5)/2], [-sin(q1 + q2)*cos(q3 + q5 + q7), sin(q1 + q2)*sin(q3 + q5 + q7), -cos(q1 + q2), sin(q1) - 5*sin(q1 + q2)*cos(q3)/2 - 5*sin(q1 + q2)*cos(q3 + q5)/2 + 2*sin(q1 + q2) - 5*cos(q1 + q2)], [0, 0, 0, 1]])
+
+其他活动组：q4=1pi,q6=0pi
+Matrix([[-cos(q1 + q2)*cos(q3 - q5 + q7), sin(q3 - q5 + q7)*cos(q1 + q2), sin(q1 + q2), 5*sin(q1 + q2) + cos(q1) + 5*cos(q3)*cos(q1 + q2)/2 + 5*cos(q1 + q2)*cos(q3 - q5)/2 + 2*cos(q1 + q2) + 2], [sin(q3 - q5 + q7), cos(q3 - q5 + q7), 0, -5*sin(q3)/2 - 5*sin(q3 - q5)/2], [-sin(q1 + q2)*cos(q3 - q5 + q7), sin(q1 + q2)*sin(q3 - q5 + q7), -cos(q1 + q2), sin(q1) + 5*sin(q1 + q2)*cos(q3)/2 + 5*sin(q1 + q2)*cos(q3 - q5)/2 + 2*sin(q1 + q2) - 5*cos(q1 + q2)], [0, 0, 0, 1]])
+
+其他活动组：q4=1pi,q6=1pi
+Matrix([[cos(q1 + q2)*cos(-q3 + q5 + q7), -sin(-q3 + q5 + q7)*cos(q1 + q2), -sin(q1 + q2), cos(q1) + 5*cos(q3)*cos(q1 + q2)/2 + 5*cos(q1 + q2)*cos(q3 - q5)/2 + 2*cos(q1 + q2) + 2], [sin(-q3 + q5 + q7), cos(-q3 + q5 + q7), 0, -5*sin(q3)/2 - 5*sin(q3 - q5)/2], [sin(q1 + q2)*cos(-q3 + q5 + q7), -sin(q1 + q2)*sin(-q3 + q5 + q7), cos(q1 + q2), sin(q1) + 5*sin(q1 + q2)*cos(q3)/2 + 5*sin(q1 + q2)*cos(q3 - q5)/2 + 2*sin(q1 + q2)], [0, 0, 0, 1]])

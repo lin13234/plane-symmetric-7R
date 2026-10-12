@@ -1,0 +1,13 @@
+# Exact configuration-space topology certificates (Section 3 & Supplement S2-S13)
+sympy>=1.14.0
+
+# Kinematical audits, embodiment interference, and statistical analysis (Section 4)
+numpy>=1.26.0
+scipy>=1.12.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+
+# MuJoCo physics and reinforcement learning (Stage I & Stage II)
+mujoco>=3.1.0
+torch>=2.2.0
+pyyaml>=6.0

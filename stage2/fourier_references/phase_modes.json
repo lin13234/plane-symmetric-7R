@@ -1,0 +1,33 @@
+{
+  "frozen_phase_modes": {
+    "planar_inchworm": {
+      "branch": "B_P",
+      "reference_file": "planar_reference_B_P.json",
+      "phase_coordinate": "q2",
+      "mode": "oscillatory",
+      "range_rad": [-3.141592653589793, 3.141592653589793],
+      "range_deg": [-180.0, 180.0],
+      "note": "已冻结：沿用历史 class2_2 的 |q2|<=pi 振荡"
+    },
+    "spatial_rotary_crawling": {
+      "branch": "B_S1",
+      "reference_file": "spatial_reference_B_S1.json",
+      "phase_coordinate": "q3",
+      "mode": "continuous",
+      "range_rad": [-3.141592653589793, 3.141592653589793],
+      "range_deg": [-180.0, 180.0],
+      "winding": "q3=+1, q7=-1 (full revolution)",
+      "note": "q3 连续转动，完整周期"
+    },
+    "spatial_inchworm": {
+      "branch": "B_S1",
+      "reference_file": "spatial_reference_B_S1.json",
+      "phase_coordinate": "q3",
+      "mode": "oscillatory",
+      "range_rad": [-1.5707963267948966, 1.5707963267948966],
+      "range_deg": [-90.0, 90.0],
+      "note": "已冻结：绕 G1 往返 ±90°，避开 H1 秩五翻转点"
+    }
+  },
+  "key_design": "spatial_rotary_crawling 与 spatial_inchworm 共用同一套 B_S1 reference 系数（spatial_reference_B_S1.json），仅 phase usage 不同：continuous（连续转）vs oscillatory（±90° 往返）。"
+}

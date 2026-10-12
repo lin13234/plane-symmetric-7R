@@ -1,0 +1,90 @@
+{
+  "input_q3": 0.7,
+  "deterministic_starts": 192,
+  "converged_starts": 98,
+  "distinct_discovered_roots": 4,
+  "roots": [
+    {
+      "q": [
+        1.8031240810720222,
+        1.8031240810720226,
+        0.7,
+        1.7498206454978023,
+        0.29775237462268955,
+        -1.7498206454978023,
+        -0.6999999999999998
+      ],
+      "normalized_closure_frobenius": 6.094877659427165e-16,
+      "coordination_errors": [
+        -4.440892098500626e-16,
+        0.0,
+        1.1102230246251565e-16
+      ],
+      "seed_index": 1,
+      "min_passive_singular_value": 0.45704105087557545,
+      "evidence_class": "SAMPLED EVIDENCE; candidate only until interval certificate"
+    },
+    {
+      "q": [
+        -1.853920363058903,
+        -1.8539203630589032,
+        0.7,
+        1.3518407930738097,
+        -0.3619048024644061,
+        -1.3518407930738097,
+        -0.7
+      ],
+      "normalized_closure_frobenius": 9.686364923772486e-16,
+      "coordination_errors": [
+        2.220446049250313e-16,
+        0.0,
+        0.0
+      ],
+      "seed_index": 4,
+      "min_passive_singular_value": 0.4602391481138338,
+      "evidence_class": "SAMPLED EVIDENCE; candidate only until interval certificate"
+    },
+    {
+      "q": [
+        -0.20794224271182754,
+        -0.20794224271182846,
+        0.7,
+        -0.26916894550410075,
+        -1.3639817406443275,
+        0.2691689455041007,
+        -0.6999999999999998
+      ],
+      "normalized_closure_frobenius": 6.756311739335771e-16,
+      "coordination_errors": [
+        9.159339953157541e-16,
+        -5.551115123125783e-17,
+        1.1102230246251565e-16
+      ],
+      "seed_index": 16,
+      "min_passive_singular_value": 0.23464423746795474,
+      "evidence_class": "SAMPLED EVIDENCE; candidate only until interval certificate"
+    },
+    {
+      "q": [
+        -2.9515975802523022,
+        -2.9515975802523022,
+        0.7,
+        0.2463369517586475,
+        -1.369876258984126,
+        -0.24633695175864753,
+        -0.6999999999999998
+      ],
+      "normalized_closure_frobenius": 4.827592469338872e-16,
+      "coordination_errors": [
+        0.0,
+        -2.7755575615628914e-17,
+        1.1102230246251565e-16
+      ],
+      "seed_index": 17,
+      "min_passive_singular_value": 0.3393199648227761,
+      "evidence_class": "SAMPLED EVIDENCE; candidate only until interval certificate"
+    }
+  ],
+  "is_exhaustive": false,
+  "global_exhaustion_claim": "UNPROVED"
+}
